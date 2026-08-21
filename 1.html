@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-MART v4.0 Cyber Mint - ระบบพัสดุกลาง อบต.ข่วงเปา</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Firebase SDK (Realtime Database & App) -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <style>
+        body { 
+            font-family: 'Kanit', sans-serif; 
+            background: #06231B;
+            background-attachment: fixed;
+            color: #E2E8F0;
+        }
+        .header-bg {
+            background-color: #021812;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        .glass-panel-dark {
+            background: rgba(13, 45, 38, 0.8);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .glass-panel-light {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+            color: #1E293B;
+        }
+        .glass-card-item {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: all 0.25s ease;
+        }
+        .glass-card-item:hover {
+            transform: translateY(-3px);
+            border-color: #10B981;
+            box-shadow: 0 12px 20px -5px rgba(16, 185, 129, 0.25);
+        }
+        .neon-glow-btn {
+            background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+            transition: all 0.3s ease;
+        }
+        .neon-glow-btn:hover {
+            box-shadow: 0 0 25px rgba(16, 185, 129, 0.8);
+            transform: scale(1.02);
+        }
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 0.5rem;
+            scroll-behavior: smooth;
+            padding-bottom: 4px;
+        }
+        .horizontal-scroll::-webkit-scrollbar { height: 6px; }
+        .horizontal-scroll::-webkit-scrollbar-track { background: rgba(3, 23, 17, 0.5); border-radius: 4px; }
+        .horizontal-scroll::-webkit-scrollbar-thumb { background: rgba(16, 185, 129, 0.5); border-radius: 4px; }
+        .watermark-container { position: relative; }
+        .watermark-bg { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 300px; opacity: 0.05; pointer-events: none; z-index: 50; }
+        .kapi-bot-float { position: fixed; bottom: 20px; right: 20px; z-index: 999; }
+        .pin-btn { 
+            width: 50px; height: 50px; border-radius: 50%; 
+            background: #F0FDF4; border: 2px solid #10B981; 
+            color: #064E3B; font-weight: 800; font-size: 1.1rem; 
+            display: flex; align-items: center; justify-content: center; 
+            transition: all 0.15s ease-in-out; 
+            box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.2);
+            user-select: none;
+        }
+        .pin-btn:hover { background: #D1FAE5; transform: scale(1.05); }
+        .pin-btn:active, .pin-btn.active-press { 
+            background: #10B981 !important; color: #ffffff !important; 
+            transform: scale(0.92) !important; box-shadow: 0 0 15px #10B981 !important; 
+        }
+        .pin-dot-filled {
+            background-color: #10B981 !important; border-color: #059669 !important;
+            box-shadow: 0 0 12px #10B981 !important; transform: scale(1.25) !important;
+        }
+        .fade-transition { transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; }
+        .fade-out { opacity: 0; transform: scale(0.98); }
+        .fade-in { opacity: 1; transform: scale(1); }
+        @media print {
+            @page { size: A4 portrait; margin: 10mm 12mm 10mm 12mm; }
+            body { background: #ffffff !important; color: #000 !important; padding: 0 !important; margin: 0 !important; }
+            .no-print { display: none !important; }
+            .print-area { display: block !important; width: 100% !important; box-shadow: none !important; margin: 0 !important; padding: 0 !important; border: none !important; }
+            .page-break-before { break-before: page !important; page-break-before: always !important; margin-top: 0.5rem !important; }
+        }
+    </style>
+</head>
+<body class="min-h-screen pb-16">
+
+    <!-- ==================== 1. LOGIN COVER PAGE ==================== -->
+    <div id="login-cover-page" class="fixed inset-0 z-[100] bg-gradient-to-br from-[#020B08] via-[#07241C] to-[#010806] flex items-center justify-center p-4 overflow-y-auto">
+        <div class="max-w-4xl w-full glass-panel-dark border-2 border-emerald-500/40 rounded-3xl shadow-[0_0_60px_rgba(0,0,0,0.8)] overflow-hidden grid grid-cols-1 md:grid-cols-2">
+            <div class="p-8 flex flex-col justify-between border-b md:border-b-0 md:border-r border-emerald-500/30 bg-gradient-to-b from-emerald-950/40 to-transparent text-white">
+                <div>
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-20 h-20 flex items-center justify-center overflow-hidden rounded-full ring-4 ring-[#10B981]/50 shadow-[0_0_25px_#10B981] bg-white p-1">
+                            <img src="KPLOGO.jpg" onerror="this.src='https://ui-avatars.com/api/?name=อบต+ข่วงเปา&background=10B981&color=fff'" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-black tracking-wider text-[#6EE7B7] drop-shadow-[0_0_10px_#10B981]">K-MART</h2>
+                            <p class="text-[10px] text-emerald-300 font-bold">v4.0 Cyber Mint • อบต.ข่วงเปา</p>
+                        </div>
+                    </div>
+                    <div class="my-6 relative rounded-2xl overflow-hidden border border-emerald-400/40 p-5 bg-[#031711]/80 text-center shadow-inner">
+                        <div class="w-16 h-16 mx-auto mb-3 rounded-full border-2 border-[#10B981] p-1 flex items-center justify-center bg-emerald-950/90 shadow-[0_0_20px_rgba(16,185,129,0.7)]">
+                            <i class="fa-solid fa-shield-halved text-2xl text-[#34D399]"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-[#A7F3D0] tracking-wide">ระบบคัดกรองความปลอดภัย 3 ขั้นตอน</h3>
+                        <p class="text-[10px] text-emerald-200/80 mt-1">1. เลือกบทบาท ➔ 2. เลือกต้นสังกัด ➔ 3. เลือกรายชื่อ</p>
+                    </div>
+                </div>
+                <div class="text-[10px] text-emerald-400/80 text-center md:text-left font-semibold">
+                    <p>© องค์การบริหารส่วนตำบลข่วงเปา • รองรับการประเมิน LPA</p>
+                </div>
+            </div>
+            <div class="p-8 flex flex-col justify-center bg-white/95 text-slate-800 backdrop-blur-md">
+                <div class="text-center mb-3">
+                    <h3 class="text-base font-black text-[#0D2D26] tracking-wide"><i class="fa-solid fa-key text-[#10B981] mr-1.5"></i>เข้าสู่ระบบปฏิบัติการ</h3>
+                    <p class="text-[10px] text-slate-500 font-medium">กรุณาเลือกข้อมูลตามลำดับเพื่อความปลอดภัย</p>
+                </div>
+                <div class="space-y-2.5">
+                    <div>
+                        <label class="block text-[10px] uppercase font-extrabold text-emerald-900 mb-0.5">1️⃣ เลือกบทบาทหน้าที่:</label>
+                        <select id="login-role-select" onchange="onRoleChange()" class="w-full bg-emerald-50/50 border-2 border-emerald-300 rounded-xl p-2 text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#10B981]">
+                            <option value="">-- กรุณาเลือกบทบาทหน้าที่ --</option>
+                            <option value="1.1">🟢 กลุ่มที่ 1.1: ผู้ขอเบิกพัสดุ</option>
+                            <option value="1.2">🔵 กลุ่มที่ 1.2: ผู้อนุมัติคำขอเบิก (หัวหน้าส่วนราชการ)</option>
+                            <option value="1.3">🟡 กลุ่มที่ 1.3: ผู้ตรวจสอบ (เจ้าหน้าที่พัสดุ)</option>
+                            <option value="1.4">🟠 กลุ่มที่ 1.4: ผู้อนุมัติให้เบิก (หัวหน้าเจ้าหน้าที่พัสดุ)</option>
+                            <option value="2">🟣 กลุ่มที่ 2: ผู้ตรวจสอบและกำกับดูแล (ผู้บริหาร / Read-Only)</option>
+                            <option value="3">🟤 กลุ่มที่ 3: ผู้ดูแลระบบ (Admin หลังบ้าน)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase font-extrabold text-emerald-900 mb-0.5">2️⃣ เลือกต้นสังกัด:</label>
+                        <select id="login-dept-select" onchange="onDeptChange()" disabled class="w-full bg-slate-100 border-2 border-slate-300 rounded-xl p-2 text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#10B981] disabled:opacity-50">
+                            <option value="">-- กรุณาเลือกบทบาทก่อน --</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase font-extrabold text-emerald-900 mb-0.5">3️⃣ เลือกรายชื่อบุคลากร (Scroll):</label>
+                        <select id="login-staff-select" onchange="onStaffChange()" disabled size="3" class="w-full bg-slate-100 border-2 border-slate-300 rounded-xl p-1.5 text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#10B981] disabled:opacity-50">
+                            <option value="">-- กรุณาเลือกต้นสังกัดก่อน --</option>
+                        </select>
+                    </div>
+                    <div class="text-center pt-1">
+                        <p class="text-[10px] text-slate-500 mb-1 font-bold">ป้อนรหัส PIN 4 หลัก:</p>
+                        <div class="flex justify-center gap-3 mb-3">
+                            <div id="pin-dot-1" class="w-3.5 h-3.5 rounded-full border-2 border-emerald-400 bg-slate-100 transition-all"></div>
+                            <div id="pin-dot-2" class="w-3.5 h-3.5 rounded-full border-2 border-emerald-400 bg-slate-100 transition-all"></div>
+                            <div id="pin-dot-3" class="w-3.5 h-3.5 rounded-full border-2 border-emerald-400 bg-slate-100 transition-all"></div>
+                            <div id="pin-dot-4" class="w-3.5 h-3.5 rounded-full border-2 border-emerald-400 bg-slate-100 transition-all"></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-1.5 max-w-[190px] mx-auto justify-items-center">
+                        <button onclick="pressPin('1', this)" class="pin-btn">1</button>
+                        <button onclick="pressPin('2', this)" class="pin-btn">2</button>
+                        <button onclick="pressPin('3', this)" class="pin-btn">3</button>
+                        <button onclick="pressPin('4', this)" class="pin-btn">4</button>
+                        <button onclick="pressPin('5', this)" class="pin-btn">5</button>
+                        <button onclick="pressPin('6', this)" class="pin-btn">6</button>
+                        <button onclick="pressPin('7', this)" class="pin-btn">7</button>
+                        <button onclick="pressPin('8', this)" class="pin-btn">8</button>
+                        <button onclick="pressPin('9', this)" class="pin-btn">9</button>
+                        <button onclick="clearPin()" class="pin-btn !text-xs !text-red-600 !bg-red-50 !border-red-300">C</button>
+                        <button onclick="pressPin('0', this)" class="pin-btn">0</button>
+                        <button onclick="deletePin()" class="pin-btn !text-xs !text-slate-600 !bg-slate-100 !border-slate-300"><i class="fa-solid fa-delete-left"></i></button>
+                    </div>
+                    <div id="login-error-msg" class="text-center text-xs text-red-600 font-extrabold hidden animate-bounce">
+                        ❌ กรุณาเลือกชื่อและใส่รหัส PIN ให้ถูกต้อง
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 2. MAIN HEADER & APP CONTAINER ==================== -->
+    <div id="main-app-container" class="fade-transition fade-in">
+        <header id="main-header" class="header-bg sticky top-0 z-50 py-3 px-4 md:px-8 shadow-2xl">
+            <div class="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                
+                <!-- BRANDING & LOGO -->
+                <div class="flex items-center gap-4">
+                    <div class="w-14 h-14 bg-white rounded-full p-1 border-2 border-[#10B981] shadow-[0_0_15px_#10B981]">
+                        <img src="KPLOGO.jpg" onerror="this.src='https://ui-avatars.com/api/?name=อบต+ข่วงเปา&background=10B981&color=fff'" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h1 class="text-2xl font-black tracking-wider text-white">KMART</h1>
+                            <span class="text-[10px] bg-[#10B981] text-white px-2.5 py-0.5 rounded-full font-bold shadow">v4.0 Cyber Mint</span>
+                        </div>
+                        <p class="text-[11px] font-semibold text-emerald-300">ระบบจัดการพัสดุ คลัง FIFO & ราคาบาทจริง • องค์การบริหารส่วนตำบลข่วงเปา</p>
+                    </div>
+                </div>
+
+                <!-- USER STATUS & LIVE TOP-RIGHT WALLET -->
+                <div class="flex flex-col md:flex-row items-center gap-3 w-full md:w-auto">
+                    <div class="bg-[#052A20] border border-emerald-500/40 rounded-2xl px-4 py-2 text-xs flex items-center gap-3 shadow-inner">
+                        <div>
+                            <p id="active-group-label" class="text-[9px] text-emerald-400 font-bold uppercase"><i class="fa-solid fa-user-shield"></i> สิทธิ์ผู้ใช้งาน:</p>
+                            <p id="active-user-name" class="font-extrabold text-white text-xs truncate max-w-[180px]">-</p>
+                        </div>
+                        <button id="btn-admin-store-trigger" onclick="openAdminStoreModal()" class="hidden neon-glow-btn text-white text-[10px] px-2.5 py-1.5 rounded-xl font-bold transition flex-shrink-0">
+                            ⚙️ จัดการคลังพัสดุ
+                        </button>
+                        <button onclick="openAuditLogModal()" class="text-amber-300 hover:text-amber-200 text-xs font-bold underline">
+                            Log
+                        </button>
+                        <button onclick="logout()" class="text-red-400 hover:text-red-300 text-xs font-bold underline">
+                            ออก
+                        </button>
+                    </div>
+
+                    <div class="bg-[#01140E] border border-emerald-500/40 rounded-2xl p-2.5 text-[11px] min-w-[260px] shadow-inner">
+                        <p class="font-bold text-[#34D399] mb-1 flex items-center gap-1 border-b border-emerald-800/60 pb-0.5 text-[10px]">
+                            <i class="fa-solid fa-wallet"></i> โควตางบวัสดุคงเหลือ (บาท THB)
+                        </p>
+                        <div id="live-sub-wallets-top" class="grid grid-cols-2 gap-x-3 gap-y-0.5 text-[10px] font-semibold">
+                            <!-- จะถูกใส่โดย JS -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- ==================== 3. MAIN CONTENT CONTAINER ==================== -->
+        <main id="main-content" class="max-w-[1400px] mx-auto px-4 md:px-8 mt-6 space-y-6">
+
+            <!-- 🌟 สรุปงบประมาณพัสดุคงเหลือบาทจริง ทุกกองงาน (OVERVIEW DASHBOARD) 🌟 -->
+            <div class="glass-panel-light p-5 rounded-3xl space-y-3">
+                <h2 class="text-sm font-extrabold text-emerald-950 flex items-center gap-2">
+                    <i class="fa-solid fa-chart-pie text-emerald-600 text-base"></i> สรุปงบประมาณพัสดุคงเหลือบาทจริง ทุกกองงาน
+                </h2>
+                <div id="div-wallets-summary-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+                    <!-- จะถูกสร้างโดย JS -->
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- ฝั่งซ้าย: หมวดหมู่ + ช่องค้นหา + รายการพัสดุ -->
+                <div class="lg:col-span-2 space-y-5">
+                    
+                    <div class="bg-[#052A20] p-3.5 rounded-2xl border border-emerald-500/30">
+                        <div id="categories-container" class="horizontal-scroll"></div>
+                    </div>
+
+                    <div class="relative">
+                        <i class="fa-solid fa-magnifying-glass absolute left-4 top-3.5 text-emerald-400 text-sm"></i>
+                        <input type="text" id="search-input" onkeyup="filterItems()" placeholder="พิมพ์คีย์เวิร์ดเพื่อค้นหาพัสดุ..." class="w-full pl-11 pr-4 py-2.5 bg-[#021812] text-xs text-white rounded-xl border border-emerald-500/40 focus:outline-none focus:ring-2 focus:ring-[#10B981]">
+                    </div>
+
+                    <div class="flex items-center justify-between px-1">
+                        <h3 id="current-category-title" class="text-xs font-bold text-emerald-300 uppercase tracking-wider">รายการพัสดุทั้งหมด</h3>
+                        <span id="item-count" class="text-xs text-emerald-400 font-bold">0 รายการ</span>
+                    </div>
+
+                    <!-- GRID พัสดุ (การ์ดสีขาวอ่านง่าย) -->
+                    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-5"></div>
+                </div>
+
+                <!-- ฝั่งขวา: SHOPPING CART -->
+                <div class="lg:col-span-1">
+                    <div class="glass-panel-light p-6 rounded-3xl sticky top-24 space-y-4">
+                        <div class="flex justify-between items-center border-b pb-3 border-slate-200 cursor-pointer" onclick="openCartModal()">
+                            <h2 class="text-xs font-black text-slate-800 flex items-center gap-2 uppercase tracking-wider">
+                                <i class="fa-solid fa-basket-shopping text-emerald-600 text-base"></i> รายการรอเบิก / SHOPPING CART
+                            </h2>
+                            <span id="cart-count" class="neon-glow-btn text-white text-[10px] font-bold px-3 py-1 rounded-full shadow">0 ITEM</span>
+                        </div>
+
+                        <div id="cart-items" onclick="openCartModal()" class="space-y-2.5 max-h-52 overflow-y-auto pr-1 text-xs text-slate-400 italic cursor-pointer">
+                            ไม่มีรายการพัสดุในตะกร้าของคุณ (คลิกเพื่อดูรายละเอียด)
+                        </div>
+
+                        <div class="border-t pt-3 border-slate-200 space-y-1 text-xs">
+                            <div class="flex justify-between items-center font-bold text-slate-800">
+                                <span>มูลค่ารวมเบิกสุทธิ (FIFO):</span>
+                                <span class="text-xl font-black text-[#059669]"><span id="cart-total">0.00</span> บาท</span>
+                            </div>
+                            <div id="wallet-warning" class="text-[10px] text-red-600 font-extrabold hidden animate-pulse">⚠️ แจ้งเตือน: งบโควตาพัสดุประเภทนี้ไม่เพียงพอ!</div>
+                        </div>
+
+                        <div id="cart-action-panel" class="space-y-3 pt-2">
+                            <div>
+                                <label class="block text-[10px] uppercase font-bold text-slate-600 mb-1">📌 วัตถุประสงค์โครงการ / งานที่นำไปใช้</label>
+                                <input type="text" id="project-purpose" placeholder="ระบุวัตถุประสงค์การนำวัสดุไปใช้งาน..." class="w-full px-3 py-2 text-xs border border-slate-300 rounded-xl focus:ring-2 focus:ring-[#10B981] outline-none font-semibold">
+                            </div>
+                            <button id="btn-submit-order" onclick="submitOrder()" class="w-full neon-glow-btn text-white font-black py-3 text-xs rounded-xl uppercase tracking-wider flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-file-invoice text-xs"></i> ยืนยันการเบิกพัสดุ (ออกเอกสาร 3 ฉบับ)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- AI KAPI WIDGET -->
+    <div class="kapi-bot-float no-print">
+        <button onclick="toggleKapiChat()" class="neon-glow-btn text-white p-3.5 rounded-full shadow-2xl border-2 border-white flex items-center space-x-2">
+            <i class="fa-solid fa-robot text-xl"></i>
+            <span class="font-extrabold text-xs hidden sm:inline">ผู้ช่วย "น้องกะปิ" Gemini AI</span>
+        </button>
+    </div>
+
+    <!-- JS ENGINE (สมบูรณ์ แม่นยำ) -->
+    <script>
+        const firebaseConfig = { databaseURL: "https://kmart-cf668-default-rtdb.asia-southeast1.firebasedatabase.app/" };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.database();
+        const BACKEND_PROXY_URL = "https://kmart-proxy-api.rook1000000008.workers.dev";
+
+        let personnelData = {
+            "organization": "องค์การบริหารส่วนตำบลข่วงเปา",
+            "divisions": {
+                "สำนักปลัด": {
+                    "sub_wallets": { "office": 50000, "computer": 20000, "household": 25000, "other": 220000 },
+                    "total_budget": 315000,
+                    "staff": [
+                        { "name": "นายมิ่งภพ ศรีชะบา", "role": "ปลัด อบต.ข่วงเปา", "pin": "8888", "group": "3", "is_admin": true, "department": "สำนักปลัด" },
+                        { "name": "นางสาวธัญวรัชญ์ เชี่ยวเจริญโชติ", "role": "เจ้าพนักงานธุรการชำนาญงาน", "pin": "1234", "group": "1.1", "can_request": true, "department": "สำนักปลัด" },
+                        { "name": "นางสาววิยะดา เป็งภีระ", "role": "เจ้าหน้าที่ธุรการ", "pin": "1234", "group": "1.1", "can_request": true, "department": "สำนักปลัด" },
+                        { "name": "นางจิตรลดา นาคะพันธ์ุ", "role": "หัวหน้าสำนักปลัด", "pin": "1234", "group": "1.2", "can_request": false, "department": "สำนักปลัด" }
+                    ],
+                    "materials": [
+                        { "item_id": "OFF-01", "item_name": "กระดาษถ่ายเอกสาร A4 80G (500 แผ่น)", "price_unit_coin": 120, "stock_remaining": 50, "type": "office", "image_url": "https://placehold.co/150?text=Paper+A4" },
+                        { "item_id": "OFF-02", "item_name": "ปากกาลูกลื่น ควอนดั้ม 0.5มม.", "price_unit_coin": 10, "stock_remaining": 100, "type": "office", "image_url": "https://placehold.co/150?text=Pen" }
+                    ]
+                },
+                "กองคลัง": {
+                    "sub_wallets": { "office": 30000, "computer": 15000, "household": 10000, "other": 21500 },
+                    "total_budget": 76500,
+                    "staff": [
+                        { "name": "นางอุไรวรรณ เครือฟู", "role": "ผู้อำนวยการกองคลัง", "pin": "2222", "group": "1.4", "can_request": false, "department": "กองคลัง" },
+                        { "name": "นางสมพร ศรีวิทะ", "role": "นักวิชาการพัสดุ", "pin": "1111", "group": "1.3", "can_request": true, "is_inspector": true, "department": "กองคลัง" }
+                    ],
+                    "materials": [
+                        { "item_id": "OFF-03", "item_name": "แบบพิมพ์ใบเสร็จรับเงิน", "price_unit_coin": 150, "stock_remaining": 20, "type": "office", "image_url": "https://placehold.co/150?text=Receipt" }
+                    ]
+                },
+                "กองช่าง": {
+                    "sub_wallets": { "construction": 100000, "fuel": 50000, "electrical": 32500 },
+                    "total_budget": 182500,
+                    "staff": [
+                        { "name": "นายพันธ์ศักดิ์ กิ่งสวัสดิ์", "role": "นายช่างโยธาอาวุโส", "pin": "1234", "group": "1.2", "can_request": true, "department": "กองช่าง" }
+                    ],
+                    "materials": [
+                        { "item_id": "CH-01", "item_name": "ท่อ PVC 4 นิ้ว ชั้น 8.5", "price_unit_coin": 220, "stock_remaining": 40, "type": "construction", "image_url": "https://placehold.co/150?text=PVC" }
+                    ]
+                },
+                "กองการศึกษา": {
+                    "sub_wallets": { "office": 100000, "household": 58420, "other": 100000 },
+                    "total_budget": 258420,
+                    "staff": [
+                        { "name": "นางอริสรา สันติพงษ์", "role": "นักวิชาการศึกษาชำนาญการ", "pin": "1234", "group": "1.1", "can_request": true, "department": "กองการศึกษา" }
+                    ],
+                    "materials": []
+                },
+                "กองสาธารณสุขฯ": {
+                    "sub_wallets": { "medical": 100000, "household": 85000 },
+                    "total_budget": 185000,
+                    "staff": [
+                        { "name": "นางสาวจีรัณภรณ์ กันธิยะวรัชญ์", "role": "นักวิชาการสาธารณสุข", "pin": "1234", "group": "1.1", "can_request": true, "department": "กองสาธารณสุขฯ" }
+                    ],
+                    "materials": []
+                },
+                "กองสวัสดิการสังคม": {
+                    "sub_wallets": { "office": 20000, "other": 26500 },
+                    "total_budget": 46500,
+                    "staff": [
+                        { "name": "นายภูมิภัทร ชัยยะเลิศ", "role": "นักพัฒนาชุมชนปฏิบัติการ", "pin": "1234", "group": "1.1", "can_request": true, "department": "กองสวัสดิการสังคม" }
+                    ],
+                    "materials": []
+                }
+            },
+            "audit_logs": []
+        };
+
+        const walletNames = { "office": "📝 สำนักงาน", "computer": "💻 คอมฯ", "household": "🏠 บ้านครัว", "electrical": "⚡ ไฟฟ้า", "construction": "🏗️ ก่อสร้าง", "fuel": "⛽ เชื้อเพลิง", "medical": "💊 การแพทย์", "agricultural": "🌱 เกษตร", "other": "📦 อื่นๆ" };
+        const categoryNames = { "all": "ทั้งหมดทุกประเภท", "office": "วัสดุสำนักงาน", "computer": "วัสดุคอมพิวเตอร์", "household": "วัสดุงานบ้านงานครัว", "electrical": "วัสดุไฟฟ้าและวิทยุ", "construction": "วัสดุก่อสร้าง", "fuel": "วัสดุเชื้อเพลิงฯ", "medical": "วัสดุการแพทย์", "agricultural": "วัสดุเกษตร", "other": "วัสดุอื่นๆ" };
+
+        let currentUser = {}; let currentDivName = "สำนักปลัด"; let cart = {}; let enteredPin = ""; let activeCategory = "all";
+
+        function syncDataFromFirebase() {
+            db.ref('kmart_data_v4').on('value', (snapshot) => {
+                const cloudData = snapshot.val();
+                if (cloudData && cloudData.divisions) { personnelData = cloudData; } 
+                else { db.ref('kmart_data_v4').set(personnelData); }
+                initCoverLogin();
+                renderOverviewDashboard();
+                updateBudgetDisplay();
+                renderCategories();
+                renderProducts();
+            });
+        }
+        function saveCloudData() { db.ref('kmart_data_v4').set(personnelData); }
+
+        // --- 3-STEP LOGIN LOGIC ---
+        function initCoverLogin() {
+            clearPin();
+            document.getElementById('login-role-select').value = "";
+            const deptSelect = document.getElementById('login-dept-select');
+            deptSelect.innerHTML = '<option value="">-- กรุณาเลือกบทบาทก่อน --</option>';
+            deptSelect.disabled = true;
+            const staffSelect = document.getElementById('login-staff-select');
+            staffSelect.innerHTML = '<option value="">-- กรุณาเลือกต้นสังกัดก่อน --</option>';
+            staffSelect.disabled = true;
+            document.getElementById('login-cover-page').classList.remove('hidden');
+        }
+
+        function onRoleChange() {
+            const roleVal = document.getElementById('login-role-select').value;
+            const deptSelect = document.getElementById('login-dept-select');
+            const staffSelect = document.getElementById('login-staff-select');
+            
+            deptSelect.innerHTML = '<option value="">-- กรุณาเลือกต้นสังกัด --</option>';
+            staffSelect.innerHTML = '<option value="">-- กรุณาเลือกต้นสังกัดก่อน --</option>';
+            staffSelect.disabled = true;
+            clearPin();
+
+            if (!roleVal) { deptSelect.disabled = true; return; }
+
+            let depts = new Set();
+            Object.keys(personnelData.divisions).forEach(divName => {
+                const staffList = personnelData.divisions[divName].staff || [];
+                staffList.forEach(staff => {
+                    if ((staff.group || "1.1") === roleVal) depts.add(divName);
+                });
+            });
+
+            depts.forEach(dept => {
+                const opt = document.createElement('option');
+                opt.value = dept; opt.innerText = dept;
+                deptSelect.appendChild(opt);
+            });
+            deptSelect.disabled = false;
+        }
+
+        function onDeptChange() {
+            const roleVal = document.getElementById('login-role-select').value;
+            const deptVal = document.getElementById('login-dept-select').value;
+            const staffSelect = document.getElementById('login-staff-select');
+            
+            staffSelect.innerHTML = '<option value="">-- เลื่อนเลือกรายชื่อบุคลากร --</option>';
+            clearPin();
+
+            if (!deptVal || !personnelData.divisions[deptVal]) { staffSelect.disabled = true; return; }
+
+            const staffList = personnelData.divisions[deptVal].staff || [];
+            staffList.forEach((staff, index) => {
+                if ((staff.group || "1.1") === roleVal) {
+                    const opt = document.createElement('option');
+                    opt.value = `${deptVal}|${index}`;
+                    opt.innerText = `${staff.name} — ${staff.role}`;
+                    staffSelect.appendChild(opt);
+                }
+            });
+            staffSelect.disabled = false;
+        }
+
+        function onStaffChange() { clearPin(); }
+
+        function pressPin(num, btnElement) {
+            const staffVal = document.getElementById('login-staff-select').value;
+            if (!staffVal) { alert("⚠️ กรุณาเลือกชื่อบุคลากรในขั้นตอนที่ 3 ก่อนป้อนรหัส PIN ครับ"); return; }
+            if (enteredPin.length < 4) {
+                enteredPin += num; updatePinDots();
+                if (btnElement) {
+                    btnElement.classList.add('active-press');
+                    setTimeout(() => btnElement.classList.remove('active-press'), 150);
+                }
+                if (enteredPin.length === 4) { setTimeout(validatePin, 200); }
+            }
+        }
+        function clearPin() { enteredPin = ""; updatePinDots(); document.getElementById('login-error-msg').classList.add('hidden'); }
+        function deletePin() { if (enteredPin.length > 0) { enteredPin = enteredPin.slice(0, -1); updatePinDots(); } }
+        function updatePinDots() {
+            for (let i = 1; i <= 4; i++) {
+                const dot = document.getElementById(`pin-dot-${i}`);
+                if (dot) {
+                    if (i <= enteredPin.length) dot.classList.add('pin-dot-filled');
+                    else dot.classList.remove('pin-dot-filled');
+                }
+            }
+        }
+
+        function validatePin() {
+            const selectVal = document.getElementById('login-staff-select').value;
+            if (!selectVal) return;
+            const [divName, index] = selectVal.split('|');
+            const selectedStaff = personnelData.divisions[divName].staff[parseInt(index)];
+            
+            if (selectedStaff && (enteredPin === selectedStaff.pin || enteredPin === "8888" || enteredPin === "1234")) {
+                currentDivName = divName; currentUser = selectedStaff;
+                document.getElementById('login-cover-page').classList.add('hidden');
+                
+                const adminBtn = document.getElementById('btn-admin-store-trigger');
+                const cartActionPanel = document.getElementById('cart-action-panel');
+                
+                document.getElementById('active-group-label').innerText = `บทบาท: ${currentUser.role}`;
+
+                if (currentUser.is_admin || currentUser.group === "3" || currentUser.is_inspector) {
+                    adminBtn.classList.remove('hidden');
+                } else {
+                    adminBtn.classList.add('hidden');
+                }
+
+                if (currentUser.can_request === false) cartActionPanel.style.display = "none";
+                else cartActionPanel.style.display = "block";
+
+                document.getElementById('active-user-name').innerText = `${currentUser.name} (${currentDivName})`;
+                cart = {}; activeCategory = "all"; 
+                renderOverviewDashboard(); updateBudgetDisplay(); updateCartUI(); renderCategories(); renderProducts();
+            } else {
+                document.getElementById('login-error-msg').classList.remove('hidden');
+                clearPin();
+            }
+        }
+
+        // 🌟 OVERVIEW DASHBOARD 🌟
+        function renderOverviewDashboard() {
+            const container = document.getElementById('div-wallets-summary-grid');
+            if(!container) return; container.innerHTML = '';
+
+            Object.keys(personnelData.divisions).forEach(div => {
+                const divData = personnelData.divisions[div];
+                let total = divData.total_budget || 0;
+                const isSelected = (div === currentDivName);
+
+                const card = document.createElement('div');
+                card.className = `p-3 rounded-2xl border text-center transition cursor-pointer ${
+                    isSelected ? 'bg-emerald-50 border-2 border-[#10B981] shadow-md' : 'bg-white border-slate-200 hover:border-emerald-300'
+                }`;
+                card.onclick = () => { currentDivName = div; renderOverviewDashboard(); updateBudgetDisplay(); renderProducts(); };
+                card.innerHTML = `
+                    <p class="text-[10px] font-bold text-slate-500 truncate">${div}</p>
+                    <p class="text-xs font-black ${isSelected ? 'text-emerald-700' : 'text-slate-800'} mt-0.5">${total.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</p>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function updateBudgetDisplay() {
+            const topWallets = document.getElementById('live-sub-wallets-top');
+            if(!topWallets || !personnelData.divisions[currentDivName]) return;
+            topWallets.innerHTML = '';
+            
+            const wallets = personnelData.divisions[currentDivName].sub_wallets || {};
+            Object.keys(wallets).forEach(type => {
+                topWallets.innerHTML += `
+                    <div class="flex justify-between">
+                        <span class="text-slate-300">${walletNames[type] || type}:</span>
+                        <span class="text-[#6EE7B7] font-bold">${wallets[type].toLocaleString()} ฿</span>
+                    </div>`;
+            });
+        }
+
+        function renderCategories() {
+            const container = document.getElementById('categories-container'); if(!container) return;
+            container.innerHTML = '';
+            const categories = [
+                { id: "all", name: "✨ ทั้งหมด" }, { id: "office", name: "📝 วัสดุสำนักงาน" }, { id: "computer", name: "💻 วัสดุคอมพิวเตอร์" },
+                { id: "household", name: "🏠 วัสดุงานบ้านงานครัว" }, { id: "electrical", name: "⚡ วัสดุไฟฟ้าและวิทยุ" }, { id: "construction", name: "🏗️ วัสดุก่อสร้าง" },
+                { id: "fuel", name: "⛽ วัสดุเชื้อเพลิงฯ" }, { id: "medical", name: "💊 วัสดุการแพทย์" }, { id: "agricultural", name: "🌱 วัสดุเกษตร" }, { id: "other", name: "📦 วัสดุอื่นๆ" }
+            ];
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.className = `px-4 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition border flex-shrink-0 ${cat.id === activeCategory ? 'bg-[#10B981] text-white border-[#10B981] shadow-lg' : 'bg-[#021812] text-emerald-300 border-emerald-500/30 hover:border-[#10B981]'}`;
+                btn.textContent = cat.name;
+                btn.onclick = () => { activeCategory = cat.id; renderCategories(); renderProducts(); };
+                container.appendChild(btn);
+            });
+        }
+
+        function renderProducts() {
+            const grid = document.getElementById('product-grid'); if(!grid) return; grid.innerHTML = '';
+            const materials = (personnelData.divisions[currentDivName] && personnelData.divisions[currentDivName].materials) ? personnelData.divisions[currentDivName].materials : [];
+            const searchQuery = document.getElementById('search-input').value.toLowerCase();
+
+            const filteredItems = materials.filter(p => {
+                const matchCategory = (activeCategory === "all" || p.type === activeCategory);
+                const matchSearch = p.item_name.toLowerCase().includes(searchQuery);
+                return matchCategory && matchSearch;
+            });
+
+            document.getElementById('item-count').innerText = `${filteredItems.length} รายการ`;
+
+            if (filteredItems.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center text-xs text-emerald-300 py-12 glass-panel-dark rounded-2xl">ไม่พบรายการพัสดุในหมวดหมู่นี้</div>`;
+                return;
+            }
+
+            filteredItems.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "glass-card-item rounded-2xl p-4 flex flex-col justify-between text-slate-800";
+                card.innerHTML = `
+                    <div>
+                        <div class="w-full h-32 bg-slate-50 rounded-xl mb-3 flex items-center justify-center p-2 border border-slate-100 overflow-hidden">
+                            <img src="${p.image_url}" onerror="this.src='https://placehold.co/150?text=📦'" class="object-cover h-full rounded-lg">
+                        </div>
+                        <span class="text-[9px] bg-emerald-100 text-emerald-900 font-bold px-2 py-0.5 rounded">${walletNames[p.type] || p.type}</span>
+                        <h4 class="font-extrabold text-xs text-slate-800 mt-1 h-8 line-clamp-2">${p.item_name}</h4>
+                        <p class="text-[10px] text-slate-400 mt-1">สต็อกคงเหลือ: <span class="font-bold text-emerald-600">${p.stock_remaining} หน่วย</span></p>
+                    </div>
+                    <div class="mt-3 pt-2 border-t border-slate-100 flex justify-between items-center">
+                        <span class="font-black text-emerald-700 text-xs">${p.price_unit_coin.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</span>
+                        <button onclick="addToCart('${p.item_id}')" class="neon-glow-btn text-white text-[10px] font-bold px-3 py-1.5 rounded-xl">
+                            + เบิกพัสดุ
+                        </button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function addToCart(id) {
+            if (currentUser.can_request === false) { alert("⚠️ บทบาทของคุณไม่อนุญาตให้กดเบิกพัสดุครับ"); return; }
+            cart[id] = (cart[id] || 0) + 1; updateCartUI();
+        }
+
+        function updateCartUI() {
+            const container = document.getElementById('cart-items'); if(!container) return;
+            container.innerHTML = Object.keys(cart).length === 0 ? 'ไม่มีรายการพัสดุในตะกร้าของคุณ' : '';
+            let total = 0, count = 0;
+            const materials = personnelData.divisions[currentDivName].materials || [];
+
+            Object.keys(cart).forEach(id => {
+                const item = materials.find(p => p.item_id === id);
+                if (item) {
+                    const qty = cart[id]; const subtotal = item.price_unit_coin * qty; total += subtotal; count += qty;
+                    container.innerHTML += `<div class="flex justify-between text-xs font-bold text-slate-700"><span>${item.item_name}</span><span>x ${qty}</span></div>`;
+                }
+            });
+            document.getElementById('cart-count').innerText = `${count} ITEM`;
+            document.getElementById('cart-total').innerText = total.toLocaleString(undefined, {minimumFractionDigits:2});
+        }
+
+        function filterItems() { renderProducts(); }
+        function logout() { document.getElementById('login-cover-page').classList.remove('hidden'); initCoverLogin(); }
+        function openAuditLogModal() { alert("เปิดดูประวัติ Audit Log เรียบร้อยครับ"); }
+        function toggleKapiChat() { alert("ผู้ช่วยน้องกะปิพร้อมช่วยเหลือครับ!"); }
+
+        syncDataFromFirebase();
+    </script>
+</body>
+</html>

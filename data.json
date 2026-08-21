@@ -1,0 +1,74 @@
+[
+  {
+    "item_id": "01pl_01",
+    "item_name": "ลิขวิดแบบน้ำ",
+    "division": "สำนักปลัด",
+    "stock_remaining": 2,
+    "unit": "ที่เก็บ",
+    "price_unit_coin": 92,
+    "image_url": "products/01pl/01pl_01_item.png"
+  },
+  {
+    "item_id": "01pl_02",
+    "item_name": "ลิขวิดแบบเทป (เปลี่ยนรีฟิลได้)",
+    "division": "สำนักปลัด",
+    "stock_remaining": 10,
+    "unit": "ที่เก็บ",
+    "price_unit_coin": 52,
+    "image_url": "products/01pl/01pl_02_item.png"
+  },
+  {
+    "item_id": "02fin_01",
+    "item_name": "ลวดเสียบกระดาษ No.01",
+    "division": "กองคลัง",
+    "stock_remaining": 28,
+    "unit": "กล่องเล็ก",
+    "price_unit_coin": 14,
+    "image_url": "products/02fin/02fin_01_paper_clips_no_01.png"
+  },
+  {
+    "item_id": "03eng_01",
+    "item_name": "กระดาษ A4",
+    "division": "กองช่าง",
+    "stock_remaining": 9,
+    "unit": "กล่อง",
+    "price_unit_coin": 600,
+    "image_url": "products/03eng/03eng_01_a4_paper.png"
+  },
+  {
+    "item_id": "04ed_01",
+    "item_name": "กระดาษบรุ๊ปสีเทา",
+    "division": "กองการศึกษา",
+    "stock_remaining": 1,
+    "unit": "โหล",
+    "price_unit_coin": 48,
+    "image_url": "products/04ed/04ed_01_grey_newsprint_paper.png"
+  },
+  {
+    "item_id": "05wel_01",
+    "item_name": "กระดาษ เอ 4",
+    "division": "กองสวัสดิการสังคม",
+    "stock_remaining": 10,
+    "unit": "กล่อง",
+    "price_unit_coin": 0,
+    "image_url": "products/05wel/05wel_01_paper_a4.jpg"
+  },
+  {
+    "item_id": "06ph_01",
+    "item_name": "ลิขวิดแบบน้ำ",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "stock_remaining": 1,
+    "unit": "",
+    "price_unit_coin": 0,
+    "image_url": "products/06ph/06ph_01_liquid_liquid.jpg"
+  },
+  {
+    "item_id": "06ph_fr_01",
+    "item_name": "ยากันยุง (ซอฟเฟล)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "stock_remaining": 48,
+    "unit": "ซอง",
+    "price_unit_coin": 0,
+    "image_url": "products/06ph_fr/06ph_fr_01_soffell_mosquito_repellent.jpg"
+  }
+]
