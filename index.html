@@ -412,20 +412,23 @@
         let enteredPin = "";
         let activeCategory = "all";
 
-        // 🟢 3. ฟังก์ชันแปลง Path รูปภาพอย่างครอบคลุมทุกกอง
+        // 🟢 3. ฟังก์ชันแปลง Path รูปภาพ (แก้ชื่อโฟลเดอร์และนามสกุลภาพอัตโนมัติ)
         function fixImgUrl(url) {
             if (!url) return 'https://via.placeholder.com/150?text=No+Image';
             if (url.startsWith('http://') || url.startsWith('https://')) return url;
             
-            // ลบสแลช หรือ ./ ที่ติดมาด้านหน้าออก
             let cleanPath = url.replace(/^(\.\/|\/)/, '');
             
-            // ถ้า Path ใน Firebase ยังไม่ได้นำหน้าด้วย products/ ให้เติมให้อัตโนมัติ
             if (!cleanPath.startsWith('products/')) {
                 cleanPath = 'products/' + cleanPath;
             }
+
+            // แก้ไขชื่อโฟลเดอร์ใน Firebase 01pl ➔ 01palad
+            cleanPath = cleanPath.replace('products/01pl/', 'products/01palad/');
+
+            // แก้ไขนามสกุลไฟล์ .png ➔ .jpg
+            cleanPath = cleanPath.replace(/\.png$/i, '.jpg');
             
-            // ส่งกลับลิงก์ GitHub Pages โดยตรง
             return `https://rook100000008-sketch.github.io/CENP/${cleanPath}`;
         }
 
