@@ -117,7 +117,7 @@
                 <div>
                     <div class="flex items-center gap-4 mb-4">
                         <div class="w-20 h-20 flex items-center justify-center overflow-hidden rounded-full ring-4 ring-[#10B981]/50 shadow-[0_0_25px_#10B981]">
-                            <img src="https://rook100000008-sketch.github.io/CENP/KPLOGO.jpg" onerror="this.src='https://via.placeholder.com/100?text=อบต.'" class="w-full h-full object-cover">
+                            <img src="./KPLOGO.jpg" onerror="this.src='https://via.placeholder.com/100?text=อบต.'" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <h2 class="text-2xl font-black tracking-wider text-[#6EE7B7] drop-shadow-[0_0_10px_#10B981]">K-MART</h2>
@@ -192,7 +192,7 @@
                 
                 <div class="bg-[#06241C]/90 border border-[#10B981]/40 rounded-2xl px-6 py-3.5 flex items-center gap-5 w-full md:w-auto shadow-[0_0_15px_rgba(16,185,129,0.15)]">
                     <div class="w-16 h-16 flex-shrink-0 flex items-center justify-center overflow-hidden rounded-full ring-2 ring-[#10B981] shadow-[0_0_15px_#10B981]">
-                        <img src="https://rook100000008-sketch.github.io/CENP/KPLOGO.jpg" onerror="this.src='https://via.placeholder.com/100?text=อบต.'" class="w-full h-full object-cover">
+                        <img src="./KPLOGO.jpg" onerror="this.src='https://via.placeholder.com/100?text=อบต.'" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <h1 class="text-2xl font-black tracking-wider text-white flex items-center gap-2 drop-shadow-[0_0_8px_rgba(16,185,129,0.8)]">
@@ -317,7 +317,7 @@
     <!-- ==================== OFFICIAL DOCUMENT VIEW ==================== -->
     <div id="official-document-view" class="max-w-4xl mx-auto my-4 p-8 bg-white shadow-2xl rounded-3xl border border-slate-200 hidden print-area text-slate-800 fade-transition fade-out">
         <div class="watermark-container">
-            <img src="https://rook100000008-sketch.github.io/CENP/KPLOGO.jpg" class="watermark-bg" alt="อบต. ลายน้ำ">
+            <img src="./KPLOGO.jpg" class="watermark-bg" alt="อบต. ลายน้ำ">
             
             <div class="text-center space-y-0.5">
                 <h2 class="text-lg font-bold tracking-wide text-slate-900">ใบเบิกพัสดุ / วัสดุสิ่งของใช้ในราชการ (อนุมัติอัตโนมัติ)</h2>
@@ -412,21 +412,34 @@
         let enteredPin = "";
         let activeCategory = "all";
 
-        // 🟢 3. ฟังก์ชันแปลง Path รูปภาพรองรับทุกนามสกุล (.jpg, .jpeg, .png, .wdp, .jxr)
+        // 🟢 3. ฟังก์ชันแปลง Path รูปภาพ (บังคับทุกภาพให้เป็น .jpg ตรงกับไฟล์จริง)
         function fixImgUrl(url) {
             if (!url) return 'https://via.placeholder.com/150?text=No+Image';
             if (url.startsWith('http://') || url.startsWith('https://')) return url;
             
-            let cleanPath = url.replace(/^(\.\/|\/)/, '');
+            // ลบเครื่องหมาย / หรือ ./ ที่ซ้ำซ้อนด้านหน้า
+            let cleanPath = url.replace(/^(\.\/|\/)+/, '');
             
             if (!cleanPath.startsWith('products/')) {
                 cleanPath = 'products/' + cleanPath;
             }
 
-            // แก้ไขชื่อโฟลเดอร์ใน Firebase กรณีอ้างอิงผิด 01pl ➔ 01palad
+            // แก้ไข mapping กรณีชื่อโฟลเดอร์พิมพ์ผิด 01pl ➔ 01palad
             cleanPath = cleanPath.replace('products/01pl/', 'products/01palad/');
+
+            // 🎯 บังคับเปลี่ยนนามสกุลเป็น .jpg ทุกไฟล์
+            cleanPath = cleanPath.replace(/\.(png|jpeg|wdp|jxr|webp|jpg)$/i, '.jpg');
+            if (!cleanPath.endsWith('.jpg')) {
+                cleanPath += '.jpg';
+            }
             
-            return `https://rook100000008-sketch.github.io/CENP/${cleanPath}`;
+            return './' + cleanPath;
+        }
+
+        // ฟังก์ชันเมื่อโหลดรูปไม่สำเร็จ
+        function handleImgError(img) {
+            img.onerror = null;
+            img.src = 'https://via.placeholder.com/150?text=No+Image';
         }
 
         // 🟢 4. ดึงข้อมูลพัสดุ Realtime จาก Firebase
@@ -434,7 +447,7 @@
             db.ref('materials').on('value', (snapshot) => {
                 const data = snapshot.val();
                 if (data) {
-                    allMaterials = Array.isArray(data) ? data : Object.values(data);
+                    allMaterials = Array.isArray(data) ? data.filter(item => item !== null) : Object.values(data);
                     renderProducts();
                 }
             });
@@ -535,9 +548,9 @@
 
             const filteredItems = allMaterials.filter(p => {
                 if (!p) return false;
-                const matchCategory = (activeCategory === "all" || p.division === activeCategory);
+                const matchCategory = (activeCategory === "all" || (p.division && p.division.includes(activeCategory)));
                 const matchSearch = (p.name && p.name.toLowerCase().includes(searchQuery)) ||
-                                    (p.id && p.id.toLowerCase().includes(searchQuery));
+                                    (p.id && String(p.id).toLowerCase().includes(searchQuery));
                 return matchCategory && matchSearch;
             });
 
@@ -551,23 +564,26 @@
             filteredItems.forEach(p => {
                 const qtyInCart = cart[p.id] || 0;
                 const currentSelectionQty = qtyInCart > 0 ? qtyInCart : 1;
-                const hasStock = p.quantity > 0;
+                const stockVal = Number(p.quantity ?? p.stock_remaining ?? 0);
+                const priceVal = Number(p.price ?? p.price_unit_coin ?? 0);
+                const hasStock = stockVal > 0;
+                const imgPath = p.image || p.image_url || '';
 
                 const card = document.createElement('div');
                 card.className = "glass-card rounded-2xl p-4 flex flex-col justify-between";
                 card.innerHTML = `
                     <div>
                         <div class="w-full h-36 bg-slate-50 rounded-xl mb-3 flex items-center justify-center p-2 border border-slate-100 overflow-hidden shadow-inner">
-                            <img src="${fixImgUrl(p.image)}" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/150?text=No+Image'" class="object-contain h-full w-full rounded-lg">
+                            <img src="${fixImgUrl(imgPath)}" loading="lazy" onerror="handleImgError(this)" class="object-contain h-full w-full rounded-lg">
                         </div>
                         <span class="text-[9px] bg-emerald-100 text-emerald-900 font-black px-2.5 py-0.5 rounded-md inline-block mb-1 shadow-sm">${p.division || 'ไม่ระบุ'}</span>
                         <h3 class="font-extrabold text-slate-800 text-xs h-8 line-clamp-2">${p.name}</h3>
-                        <p class="text-[10px] text-slate-400 mt-1 font-semibold">คงเหลือ: <span class="font-bold ${hasStock ? 'text-emerald-600' : 'text-red-500'}">${p.quantity} ${p.unit || ''}</span></p>
+                        <p class="text-[10px] text-slate-400 mt-1 font-semibold">คงเหลือ: <span class="font-bold ${hasStock ? 'text-emerald-600' : 'text-red-500'}">${stockVal} ${p.unit || ''}</span></p>
                     </div>
                     <div class="mt-4 pt-3 border-t border-slate-100">
                         <div class="flex justify-between items-center mb-2 text-xs">
                             <span class="text-slate-500 font-bold">ราคาประมาณ:</span>
-                            <span class="font-black text-[#059669] text-sm">${p.price > 0 ? p.price.toLocaleString() + ' ฿' : 'ตามที่จ่ายจริง'}</span>
+                            <span class="font-black text-[#059669] text-sm">${priceVal > 0 ? priceVal.toLocaleString() + ' ฿' : 'ตามที่จ่ายจริง'}</span>
                         </div>
                         <div class="flex gap-2">
                             <div class="flex items-center border-2 border-emerald-200 rounded-xl bg-slate-50 px-2 shadow-inner">
@@ -587,9 +603,10 @@
         function changeQty(id, change) {
             const item = allMaterials.find(p => p.id === id);
             if (!item) return;
+            const stockVal = Number(item.quantity ?? item.stock_remaining ?? 0);
             let currentSelection = parseInt(document.getElementById(`qty-${id}`).innerText);
             let targetQty = currentSelection + change;
-            if (targetQty < 1 || targetQty > item.quantity) return;
+            if (targetQty < 1 || targetQty > stockVal) return;
 
             document.getElementById(`qty-${id}`).innerText = targetQty;
             if (cart[id]) { cart[id] = targetQty; updateCartUI(); }
@@ -598,8 +615,9 @@
         function addToCart(id) {
             const item = allMaterials.find(p => p.id === id);
             if (!item) return;
+            const stockVal = Number(item.quantity ?? item.stock_remaining ?? 0);
             const targetQty = parseInt(document.getElementById(`qty-${id}`).innerText);
-            if (targetQty > item.quantity) {
+            if (targetQty > stockVal) {
                 alert("❌ สินค้าในสต็อกมีไม่เพียงพอสำหรับการเบิก");
                 return;
             }
@@ -619,7 +637,8 @@
                 const item = allMaterials.find(p => p.id === id);
                 if (!item) return;
                 const qty = cart[id]; 
-                const subtotal = (item.price || 0) * qty;
+                const priceVal = Number(item.price ?? item.price_unit_coin ?? 0);
+                const subtotal = priceVal * qty;
                 total += subtotal; 
                 itemCount += qty;
 
@@ -628,7 +647,7 @@
                 itemRow.innerHTML = `
                     <div>
                         <p class="font-extrabold text-slate-800">${item.name}</p>
-                        <span class="text-[10px] text-slate-500 font-bold">${item.price || 0} ฿ x ${qty} ${item.unit || ''}</span>
+                        <span class="text-[10px] text-slate-500 font-bold">${priceVal} ฿ x ${qty} ${item.unit || ''}</span>
                     </div>
                     <div class="flex items-center gap-2">
                         <span class="font-black text-[#059669]">${subtotal.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</span>
@@ -663,18 +682,20 @@
                 const item = allMaterials.find(p => p.id === id);
                 if (!item) return;
                 const qty = cart[id]; 
-                const subtotal = (item.price || 0) * qty; 
+                const priceVal = Number(item.price ?? item.price_unit_coin ?? 0);
+                const subtotal = priceVal * qty; 
                 total += subtotal;
+                const imgPath = item.image || item.image_url || '';
 
                 const card = document.createElement('div');
                 card.className = "flex items-center gap-3 p-3 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm";
                 card.innerHTML = `
                     <div class="w-14 h-14 bg-white border rounded-xl overflow-hidden flex-shrink-0 p-1">
-                        <img src="${fixImgUrl(item.image)}" onerror="this.onerror=null; this.src='https://via.placeholder.com/100?text=No+Image'" class="w-full h-full object-contain rounded-lg">
+                        <img src="${fixImgUrl(imgPath)}" onerror="handleImgError(this)" class="w-full h-full object-contain rounded-lg">
                     </div>
                     <div class="flex-1">
                         <h4 class="font-extrabold text-slate-800 text-xs mt-0.5">${item.name}</h4>
-                        <p class="text-[10px] text-slate-500 font-bold">ราคาประมาณ: ${(item.price || 0).toLocaleString()} ฿</p>
+                        <p class="text-[10px] text-slate-500 font-bold">ราคาประมาณ: ${priceVal.toLocaleString()} ฿</p>
                     </div>
                     <div class="flex flex-col items-end gap-1">
                         <span class="font-black text-[#059669] text-xs">${subtotal.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</span>
@@ -693,9 +714,10 @@
         function changeModalQty(id, change) {
             const item = allMaterials.find(p => p.id === id);
             if (!item) return;
+            const stockVal = Number(item.quantity ?? item.stock_remaining ?? 0);
             let currentSelection = cart[id] || 1;
             let targetQty = currentSelection + change;
-            if (targetQty < 1 || targetQty > item.quantity) return;
+            if (targetQty < 1 || targetQty > stockVal) return;
             cart[id] = targetQty; 
             updateCartUI(); 
             renderProducts();
@@ -721,7 +743,9 @@
             Object.keys(cart).forEach(id => {
                 const item = allMaterials.find(p => p.id === id);
                 if (item) {
-                    item.quantity -= cart[id];
+                    const currentQty = Number(item.quantity ?? item.stock_remaining ?? 0);
+                    item.quantity = Math.max(0, currentQty - cart[id]);
+                    item.stock_remaining = item.quantity;
                 }
             });
 
@@ -747,7 +771,8 @@
                 const item = allMaterials.find(p => p.id === id);
                 if (!item) return;
                 const qty = cart[id];
-                const subtotal = (item.price || 0) * qty;
+                const priceVal = Number(item.price ?? item.price_unit_coin ?? 0);
+                const subtotal = priceVal * qty;
                 total += subtotal;
 
                 const row = document.createElement('tr');
@@ -756,7 +781,7 @@
                     <td class="border border-slate-300 p-1.5 font-bold">${item.name}</td>
                     <td class="border border-slate-300 p-1.5 text-center">${item.division || '-'}</td>
                     <td class="border border-slate-300 p-1.5 text-center">${qty} ${item.unit || ''}</td>
-                    <td class="border border-slate-300 p-1.5 text-right">${(item.price || 0).toLocaleString(undefined, {minimumFractionDigits:2})} ฿</td>
+                    <td class="border border-slate-300 p-1.5 text-right">${priceVal.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</td>
                     <td class="border border-slate-300 p-1.5 text-right font-bold">${subtotal.toLocaleString(undefined, {minimumFractionDigits:2})} ฿</td>`;
                 tBody.appendChild(row);
             });
