@@ -1,0 +1,2180 @@
+[
+    {
+        "dept_code": "02fin",
+        "name_th": "สรุปรายการวัสดุกองคลัง",
+        "image_filename": "02fin_สรุปรายการวัสดุกองคลัง.xlsx",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/02fin/02fin_สรุปรายการวัสดุกองคลัง.xlsx"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "01_กระดาษบรุ๊ปสีเทา",
+        "image_filename": "04ed_01_grey_book_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_01_grey_book_paper.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "02_แฟ้มสันกว้าง ขนาด 3 นิ้ว",
+        "image_filename": "04ed_02_wide_spine_file_size_3_inches.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_02_wide_spine_file_size_3_inches.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "03_แฟ้มสันกว้าง ขนาด 1 นิ้ว",
+        "image_filename": "04ed_03_wide_spine_file_size_1_inch.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_03_wide_spine_file_size_1_inch.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "04_ลวดยิงบอร์ด T3-13MB",
+        "image_filename": "04ed_04_board_wire_t3-13mb.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_04_board_wire_t3-13mb.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "05_กระดาษ A4 ขนาด 80 แกรม",
+        "image_filename": "04ed_05_a4_paper_size_80_grams.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_05_a4_paper_size_80_grams.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "06_กระดาษโฟโต้ 120 แกรม",
+        "image_filename": "04ed_06_photo_paper_120_grams.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_06_photo_paper_120_grams.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "07_กระดาษสติ๊กเกอร์ ขาวด้าน A4",
+        "image_filename": "04ed_07_a4_white_matte_sticker_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_07_a4_white_matte_sticker_paper.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "08_ปากกาลูกลื่นสีน้ำเงิน ขนาด 0.5 มม.",
+        "image_filename": "04ed_08_blue_ballpoint_pen_size_0.5_mm..png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_08_blue_ballpoint_pen_size_0.5_mm..png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "09_ปากกาเน้นข้อความ",
+        "image_filename": "04ed_09_highlighter.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_09_highlighter.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "10_มีดคัตเตอร์ใหญ่ NO ST-20",
+        "image_filename": "04ed_10_large_cutter_knife_no_st-20.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_10_large_cutter_knife_no_st-20.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "11_เทปลบคำผิด",
+        "image_filename": "04ed_11_correction_tape.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_11_correction_tape.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "12_กรรไกรขนาด 8 นิ้ว",
+        "image_filename": "04ed_12_scissors_size_8_inches.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_12_scissors_size_8_inches.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "13_ที่เย็บกระดาษเบอร์ 10",
+        "image_filename": "04ed_13_stapler_number_10.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_13_stapler_number_10.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "14_ถ่าน AA ชนิด Alkaline",
+        "image_filename": "04ed_14_aa_alkaline_type_batteries.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_14_aa_alkaline_type_batteries.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "15_ถ่าน AAA ชนิด Alkaline",
+        "image_filename": "04ed_15_aaa_alkaline_type_battery.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_15_aaa_alkaline_type_battery.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "16_ลวดเสียบกระดาษ เล็ก",
+        "image_filename": "04ed_16_wire_for_paper_small.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_16_wire_for_paper_small.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "17_ลวดเสียบกระดาษ ใหญ่",
+        "image_filename": "04ed_17_wire_for_inserting_paper_large.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_17_wire_for_inserting_paper_large.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "18_คลิปดำ 2 ขา 25 มม.",
+        "image_filename": "04ed_18_black_clip_2_legs_25_mm..png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_18_black_clip_2_legs_25_mm..png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "19_คลิปดำ 2 ขา 50 มม.",
+        "image_filename": "04ed_19_black_clip_2_legs_50_mm..png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_19_black_clip_2_legs_50_mm..png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "20_หมึกปริ้นเตอร์ EPSON L3110  สีแดง",
+        "image_filename": "04ed_20_epson_l3110_printer_ink_red.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_20_epson_l3110_printer_ink_red.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "21_หมึกปริ้นเตอร์ EPSON L3110  สีน้ำเงิน",
+        "image_filename": "04ed_21_epson_l3110_printer_ink_blue.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_21_epson_l3110_printer_ink_blue.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "22_หมึกปริ้นเตอร์ EPSON L3110  สีเหลือง",
+        "image_filename": "04ed_22_epson_l3110_printer_ink_yellow.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_22_epson_l3110_printer_ink_yellow.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "23_หมึกปริ้นเตอร์ Brother HL-L3270 เหลือง",
+        "image_filename": "04ed_23_printer_ink_brother_hl-l3270_yellow.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_23_printer_ink_brother_hl-l3270_yellow.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "24_หมึกปริ้นเตอร์ Brother HL-L3270 ดำ",
+        "image_filename": "04ed_24_printer_ink_brother_hl-l3270_black.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_24_printer_ink_brother_hl-l3270_black.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "25_หมึกปริ้นเตอร์ Brother HL-L3270 แดง",
+        "image_filename": "04ed_25_printer_ink_brother_hl-l3270_red.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_25_printer_ink_brother_hl-l3270_red.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "26_หมึกปริ้นเตอร์ Brother HL-L3270 น้ำเงิน",
+        "image_filename": "04ed_26_printer_ink_brother_hl-l3270_blue.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_26_printer_ink_brother_hl-l3270_blue.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "27_เม้ามีสาย",
+        "image_filename": "04ed_27_mouse_has_wires.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_27_mouse_has_wires.png"
+    },
+    {
+        "dept_code": "04ed",
+        "name_th": "28_ชุดคีย์บอร์ดพร้อมเมาส์ แบบเชื่อมต่อUSB",
+        "image_filename": "04ed_28_keyboard_and_mouse_set_usb_connection_type.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/04ed/04ed_28_keyboard_and_mouse_set_usb_connection_type.png"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "01_กระดาษ เอ 4",
+        "image_filename": "05wel_01_paper_a4.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_01_paper_a4.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "02_แม็คเย็บกระดาษ เบอร์ 10",
+        "image_filename": "05wel_02_stapling_mac_no._10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_02_stapling_mac_no._10.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "03_คลิปหนีบดำ เบอร์ 112",
+        "image_filename": "05wel_03_black_clip_number_112.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_03_black_clip_number_112.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "04_คลิปหนีบดำ เบอร์ 110",
+        "image_filename": "05wel_04_black_clip_number_110.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_04_black_clip_number_110.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "05_คลิปหนีบดำ เบอร์ 109",
+        "image_filename": "05wel_05_black_clip_number_109.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_05_black_clip_number_109.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "06_คลิปหนีบดำ เบอร์ 108",
+        "image_filename": "05wel_06_black_clip_number_108.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_06_black_clip_number_108.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "07_ลวดเสียบกระดาษ เบอร์ No.1",
+        "image_filename": "05wel_07_paper_wire_no.1.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_07_paper_wire_no.1.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "08_ไส้แม็กซ์ เบอร์ No.1",
+        "image_filename": "05wel_08_max_filling_no.1.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_08_max_filling_no.1.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "09_ไส้แม็กซ์ เบอร์ No.M8-1M",
+        "image_filename": "05wel_09_filament_max_no.m8-1m.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_09_filament_max_no.m8-1m.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "10_ลิควิด แบบน้ำ",
+        "image_filename": "05wel_10_liquid_water_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_10_liquid_water_type.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "11_เทปลบคำผิด",
+        "image_filename": "05wel_11_correction_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_11_correction_tape.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "12_สมุดปกแข็ง No.2A",
+        "image_filename": "05wel_12_hardcover_book_no.2a.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_12_hardcover_book_no.2a.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "13_ปากกาเคมี สีแดง",
+        "image_filename": "05wel_13_red_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_13_red_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "14_สันรูด 5 มิล",
+        "image_filename": "05wel_14_sanrud_5_mm.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_14_sanrud_5_mm.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "15_สันรูด 7 มิล",
+        "image_filename": "05wel_15_sanrud_7_mm.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_15_sanrud_7_mm.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "16_ปากกาน้ำเงิน",
+        "image_filename": "05wel_16_blue_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_16_blue_pen.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "17_สันรูด 10 มิล",
+        "image_filename": "05wel_17_sanrud_10_mm.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_17_sanrud_10_mm.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "18_กระดาษแข็งคละสี",
+        "image_filename": "05wel_18_cardboard_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_18_cardboard_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "19_กระดาษโฟโต้ 180 แกรม",
+        "image_filename": "05wel_19_photo_paper_180_grams.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_19_photo_paper_180_grams.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "20_เทปใส",
+        "image_filename": "05wel_20_clear_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_20_clear_tape.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "21_กระดาษปรู๊ฟ",
+        "image_filename": "05wel_21_proof_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_21_proof_paper.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "22_เทปโฟมกาวสองหน้า",
+        "image_filename": "05wel_22_double-sided_adhesive_foam_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_22_double-sided_adhesive_foam_tape.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "23_ซองน้ำตาล ขยายข้าง",
+        "image_filename": "05wel_23_sugar_envelope_expand_side.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_23_sugar_envelope_expand_side.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "24_ซองน้ำตาล C 4",
+        "image_filename": "05wel_24_sugar_envelope_c_4.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_24_sugar_envelope_c_4.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "25_กาวแท่ง",
+        "image_filename": "05wel_25_glue_stick.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_25_glue_stick.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "26_เทปผ้า",
+        "image_filename": "05wel_26_cloth_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_26_cloth_tape.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "27_แฟ้ม ขนาด 3 นิ้ว",
+        "image_filename": "05wel_27_file_size_3_inches.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_27_file_size_3_inches.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "28_แปรงลบกระดานพลาสติก",
+        "image_filename": "05wel_28_plastic_board_eraser_brush.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_28_plastic_board_eraser_brush.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "29_คลิปบอร์ด",
+        "image_filename": "05wel_29_clipboard.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_29_clipboard.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "30_ปากกาเน้นข้อความ",
+        "image_filename": "05wel_30_highlighter.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_30_highlighter.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "31_ลวดเสียบกระดาษ เบอร์ 00",
+        "image_filename": "05wel_31_paper_insert_wire_number_00.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_31_paper_insert_wire_number_00.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "32_แผ่นเคลือบใส",
+        "image_filename": "05wel_32_clear_coated_sheet.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_32_clear_coated_sheet.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "33_แผ่นใสรองปก",
+        "image_filename": "05wel_33_transparent_cover_sheet.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_33_transparent_cover_sheet.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "34_แม็คใหญ่",
+        "image_filename": "05wel_34_large_mac.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_34_large_mac.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "35_กระดาษสติ๊กเกอร์",
+        "image_filename": "05wel_35_sticker_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_35_sticker_paper.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "36_เทปหนังไก่",
+        "image_filename": "05wel_36_chicken_skin_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_36_chicken_skin_tape.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "37_แฟ้มใสแบบสอด",
+        "image_filename": "05wel_37_transparent_file_with_insert.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_37_transparent_file_with_insert.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "38_กรรไกร",
+        "image_filename": "05wel_38_scissors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_38_scissors.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "39_ปลั๊กไฟ",
+        "image_filename": "05wel_39_power_plug.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_39_power_plug.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "40_กระดาษการ์ดสี",
+        "image_filename": "05wel_40_colored_card_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_40_colored_card_paper.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "41_ซองขาว",
+        "image_filename": "05wel_41_white_envelope.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_41_white_envelope.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "42_กาวสองหน้าบาง",
+        "image_filename": "05wel_42_thin_double-sided_adhesive.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_42_thin_double-sided_adhesive.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "43_หมึก TonerTN-269 BK สีดำ",
+        "image_filename": "05wel_43_tonertn-269_bk_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_43_tonertn-269_bk_black.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "44_หมึกToner TN-269 C สีน้ำเงิน",
+        "image_filename": "05wel_44_toner_tn-269_c_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_44_toner_tn-269_c_blue.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "45_หมึก TN-269 M สีแดง",
+        "image_filename": "05wel_45_ink_tn-269_m_red.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_45_ink_tn-269_m_red.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "46_หมึก  TN-269 Y สีเหลือง",
+        "image_filename": "05wel_46_ink_tn-269_y_yellow.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_46_ink_tn-269_y_yellow.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "47_หมึก Toner  TN-1000",
+        "image_filename": "05wel_47_toner_tn-1000.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_47_toner_tn-1000.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "48_หมึก CANON GI-790 BK",
+        "image_filename": "05wel_48_ink_canon_gi-790_bk.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_48_ink_canon_gi-790_bk.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "49_หมึก CANON GI-790 C",
+        "image_filename": "05wel_49_ink_canon_gi-790_c.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_49_ink_canon_gi-790_c.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "50_หมึก CANON GI-790 M",
+        "image_filename": "05wel_50_ink_canon_gi-790_m.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_50_ink_canon_gi-790_m.jpg"
+    },
+    {
+        "dept_code": "05wel",
+        "name_th": "51_หมึก CANON GI-790 Y",
+        "image_filename": "05wel_51_ink_canon_gi-790_y.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/05wel/05wel_51_ink_canon_gi-790_y.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "01_ลิขวิดแบบน้ำ",
+        "image_filename": "06ph_01_liquid_liquid.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_01_liquid_liquid.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "02_ลิขวิดแบบเทป(เปลี่ยนรีฟิลได้)",
+        "image_filename": "06ph_02_liquid_tape_type_replaceable_for_refills.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_02_liquid_tape_type_replaceable_for_refills.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "02_ลิขวิดแบบเทป(เปลี่ยนรีฟิลได้)",
+        "image_filename": "06ph_02_liquid_tape_type_replaceable_for_refills.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_02_liquid_tape_type_replaceable_for_refills.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "03_รีฟิลลิขวิดแบบเทป",
+        "image_filename": "06ph_03_refill_tape_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_03_refill_tape_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "04_แท่ง UHU",
+        "image_filename": "06ph_04_uhu_stick.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_04_uhu_stick.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "04_แท่ง UHU",
+        "image_filename": "06ph_04_uhu_stick.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_04_uhu_stick.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "05_กาวน้ำ (ขวด) ขนาด 150 cc.",
+        "image_filename": "06ph_05_water_glue_bottle_size_150_cc..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_05_water_glue_bottle_size_150_cc..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "06_กาวน้ำ (หลอด) ขนาด 50 ml.",
+        "image_filename": "06ph_06_liquid_glue_tube_size_50_ml..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_06_liquid_glue_tube_size_50_ml..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "07_กาว Latax ขนาด 8 ออนซ์",
+        "image_filename": "06ph_07_latax_glue_size_8_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_07_latax_glue_size_8_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "07_กาว Latax ขนาด 8 ออนซ์",
+        "image_filename": "06ph_07_latax_glue_size_8_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_07_latax_glue_size_8_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "08_กาว Latax ขนาด 16 ออนซ์",
+        "image_filename": "06ph_08_latax_glue_size_16_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_08_latax_glue_size_16_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "09_ไส้แม็กซ์เย็บกระดาษ เบอร์ 10",
+        "image_filename": "06ph_09_max_stapler_no._10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_09_max_stapler_no._10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "100_เชือกขาว-แดง ขนาดกลาง",
+        "image_filename": "06ph_100_white-red_rope_medium_size.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_100_white-red_rope_medium_size.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "100_เชือกขาว-แดง ขนาดกลาง",
+        "image_filename": "06ph_100_white-red_rope_medium_size.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_100_white-red_rope_medium_size.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "101_ซองใส่บัตรพนักงาน แนวตั้ง",
+        "image_filename": "06ph_101_employee_card_holder_vertical.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_101_employee_card_holder_vertical.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "102_ไม้บรรทัดเหล็ก",
+        "image_filename": "06ph_102_steel_ruler.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_102_steel_ruler.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "102_ไม้บรรทัดเหล็ก",
+        "image_filename": "06ph_102_steel_ruler.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_102_steel_ruler.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "103_ตะแกรงวางเอกสารพลาสติก 3 ชั้น",
+        "image_filename": "06ph_103_3-layer_plastic_document_rack.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_103_3-layer_plastic_document_rack.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "104_กรอบรูปพร้อมรูปพระราชินี เต็มองค์",
+        "image_filename": "06ph_104_photo_frame_with_picture_of_the_queen_full_body..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_104_photo_frame_with_picture_of_the_queen_full_body..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "104_กรอบรูปพร้อมรูปพระราชินี เต็มองค์",
+        "image_filename": "06ph_104_photo_frame_with_picture_of_the_queen_full_body..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_104_photo_frame_with_picture_of_the_queen_full_body..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "105_กรอบรูปพร้อมรูปพระเจ้าอยู่หัว ครึ่งองค์",
+        "image_filename": "06ph_105_photo_frame_with_picture_of_the_king_half_body..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_105_photo_frame_with_picture_of_the_king_half_body..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "105_กรอบรูปพร้อมรูปพระเจ้าอยู่หัว ครึ่งองค์",
+        "image_filename": "06ph_105_photo_frame_with_picture_of_the_king_half_body..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_105_photo_frame_with_picture_of_the_king_half_body..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "106_ที่ถอนลวดแบบคีม Eagle",
+        "image_filename": "06ph_106_eagle_plier_style_wire_puller.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_106_eagle_plier_style_wire_puller.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "107_แบตเตอรี่แบบกระดุม CR2032",
+        "image_filename": "06ph_107_button_battery_cr2032.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_107_button_battery_cr2032.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "107_แบตเตอรี่แบบกระดุม CR2032",
+        "image_filename": "06ph_107_button_battery_cr2032.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_107_button_battery_cr2032.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "108_แบตเตอรี่อัลคาไลน์ ขนาด AA",
+        "image_filename": "06ph_108_alkaline_battery_size_aa.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_108_alkaline_battery_size_aa.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "108_แบตเตอรี่อัลคาไลน์ ขนาด AA",
+        "image_filename": "06ph_108_alkaline_battery_size_aa.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_108_alkaline_battery_size_aa.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "109_แบตเตอรี่อัลคาไลน์ ขนาด AAA",
+        "image_filename": "06ph_109_alkaline_battery_size_aaa.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_109_alkaline_battery_size_aaa.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "10_ไส้แม็กซ์เย็บกระดาษ เบอร์ 35",
+        "image_filename": "06ph_10_max_stapler_no._35.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_10_max_stapler_no._35.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "110_แบตเตอรี่ ขนาด D",
+        "image_filename": "06ph_110_battery_size_d.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_110_battery_size_d.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "110_แบตเตอรี่ ขนาด D",
+        "image_filename": "06ph_110_battery_size_d.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_110_battery_size_d.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "111_ปลั๊กไฟ ขนาด 5 สวิตซ์ 5 ช่อง ยาว 5 เมตร",
+        "image_filename": "06ph_111_power_plug_size_5_switches_5_outlets_length_5_meters..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_111_power_plug_size_5_switches_5_outlets_length_5_meters..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "112_ถ่านชาร์จได้ ขนาด 3A",
+        "image_filename": "06ph_112_rechargeable_battery_size_3a.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_112_rechargeable_battery_size_3a.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "113_หมึก HP GT53 สีดำ",
+        "image_filename": "06ph_113_hp_gt53_black_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_113_hp_gt53_black_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "114_หมึก HP GT52 สีชมพู",
+        "image_filename": "06ph_114_hp_gt52_pink_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_114_hp_gt52_pink_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "115_หมึก HP GT52 สีฟ้า",
+        "image_filename": "06ph_115_hp_gt52_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_115_hp_gt52_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "116_หมึก HP GT52 สีเหลือง",
+        "image_filename": "06ph_116_hp_gt52_yellow_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_116_hp_gt52_yellow_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "117_หมึก Brother BT6000 สีดำ",
+        "image_filename": "06ph_117_brother_bt6000_ink_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_117_brother_bt6000_ink_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "118_หมึก Brother BT5000 สีชมพู",
+        "image_filename": "06ph_118_ink_brother_bt5000_pink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_118_ink_brother_bt5000_pink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "118_หมึก Brother BT5000 สีชมพู",
+        "image_filename": "06ph_118_ink_brother_bt5000_pink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_118_ink_brother_bt5000_pink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "119_หมึก Brother BT5000 สีฟ้า",
+        "image_filename": "06ph_119_brother_bt5000_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_119_brother_bt5000_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "11_ไส้แม็กซ์เย็บกระดาษ เบอร์ M3",
+        "image_filename": "06ph_11_max_stapler_no._m3.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_11_max_stapler_no._m3.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "120_หมึก Brother BT5000 สีเหลือง",
+        "image_filename": "06ph_120_ink_brother_bt5000_yellow.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_120_ink_brother_bt5000_yellow.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "121_หมึก Epson 664 สีดำ",
+        "image_filename": "06ph_121_epson_664_black_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_121_epson_664_black_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "122_หมึก Epson 664 สีชมพู",
+        "image_filename": "06ph_122_epson_664_pink_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_122_epson_664_pink_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "122_หมึก Epson 664 สีชมพู",
+        "image_filename": "06ph_122_epson_664_pink_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_122_epson_664_pink_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "123_หมึก Epson 664 สีฟ้า",
+        "image_filename": "06ph_123_epson_664_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_123_epson_664_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "123_หมึก Epson 664 สีฟ้า",
+        "image_filename": "06ph_123_epson_664_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_123_epson_664_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "124_หมึก Epson 664 สีเหลือง",
+        "image_filename": "06ph_124_epson_664_yellow_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_124_epson_664_yellow_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "125_หมึก Canon 790 สีดำ",
+        "image_filename": "06ph_125_canon_790_black_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_125_canon_790_black_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "126_หมึก Canon 790 สีชมพู",
+        "image_filename": "06ph_126_canon_790_pink_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_126_canon_790_pink_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "127_หมึก Canon 790 สีฟ้า",
+        "image_filename": "06ph_127_canon_790_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_127_canon_790_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "127_หมึก Canon 790 สีฟ้า",
+        "image_filename": "06ph_127_canon_790_ink_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_127_canon_790_ink_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "128_หมึก Canon 790 สีเหลือง",
+        "image_filename": "06ph_128_canon_790_yellow_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_128_canon_790_yellow_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "129_หมึก Canon 325",
+        "image_filename": "06ph_129_canon_325_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_129_canon_325_ink.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "12_ไส้แม็กซ์เย็บกระดาษ เบอร์ M8",
+        "image_filename": "06ph_12_max_stapler_no._m8.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_12_max_stapler_no._m8.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "130_หมึก HP Laser 85A",
+        "image_filename": "06ph_130_hp_laser_85a_toner.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_130_hp_laser_85a_toner.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "131_USB Adapter TL-WN725N TP-LINK",
+        "image_filename": "06ph_131_usb adapter tl-wn725n tp-link.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_131_usb adapter tl-wn725n tp-link.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "132_ซองใส่ซีดี",
+        "image_filename": "06ph_132_cd_case.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_132_cd_case.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "133_แผ่นซีดี",
+        "image_filename": "06ph_133_cd.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_133_cd.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "134_แป้นพิมพ์แบบมีสาย USB",
+        "image_filename": "06ph_134_usb_wired_keyboard.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_134_usb_wired_keyboard.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "134_แป้นพิมพ์แบบมีสาย USB",
+        "image_filename": "06ph_134_usb_wired_keyboard.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_134_usb_wired_keyboard.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "135_เม้าส์แบบมีสาย USB",
+        "image_filename": "06ph_135_usb_wired_mouse.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_135_usb_wired_mouse.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "136_แผ่นรองเม้าส์",
+        "image_filename": "06ph_136_mouse_pad.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_136_mouse_pad.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "137_แฟลชไดร์ฟ ขนาด 32 GB",
+        "image_filename": "06ph_137_flash_drive_size_32_gb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_137_flash_drive_size_32_gb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "138_ผงหมึกเลเซอร์ รุ่น 110A สีดำ",
+        "image_filename": "06ph_138_laser_toner_model_110a_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_138_laser_toner_model_110a_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "13_ไส้แม็กซ์เย็บกระดาษ เบอร์ 23_10",
+        "image_filename": "06ph_13_max_stapler_no._23_10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_13_max_stapler_no._23_10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "14_ไส้แม็กซ์เย็บกระดาษ เบอร์ 23_13",
+        "image_filename": "06ph_14_max_stapler_no._23_13.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_14_max_stapler_no._23_13.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "15_ไส้แม็กซ์เย็บกระดาษ เบอร์ 23_24",
+        "image_filename": "06ph_15_max_stapler_no._23_24.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_15_max_stapler_no._23_24.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "15_ไส้แม็กซ์เย็บกระดาษ เบอร์ 23_24",
+        "image_filename": "06ph_15_max_stapler_no._23_24.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_15_max_stapler_no._23_24.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "16_ลวดยิง ขนาด T3-10 MB",
+        "image_filename": "06ph_16_shooting_wire_size_t3-10_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_16_shooting_wire_size_t3-10_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "17_ลวดยิง ขนาด T3-13 MB",
+        "image_filename": "06ph_17_shooting_wire_size_t3-13_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_17_shooting_wire_size_t3-13_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "18_แม็กเย็บใหญ่ HD-50R",
+        "image_filename": "06ph_18_large_stapler_hd-50r.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_18_large_stapler_hd-50r.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "18_แม็กเย็บใหญ่ HD-50R",
+        "image_filename": "06ph_18_large_stapler_hd-50r.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_18_large_stapler_hd-50r.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "19_แม็กเย็บกระดาษ เบอร์ 10",
+        "image_filename": "06ph_19_stapling_mag_no._10.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_19_stapling_mag_no._10.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "20_ปากกาเคมี สีน้ำเงิน",
+        "image_filename": "06ph_20_blue_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_20_blue_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "20_ปากกาเคมี สีน้ำเงิน",
+        "image_filename": "06ph_20_blue_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_20_blue_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "21_ปากกาเคมี สีแดง",
+        "image_filename": "06ph_21_red_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_21_red_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "21_ปากกาเคมี สีแดง",
+        "image_filename": "06ph_21_red_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_21_red_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "22_ปากกาเคมี สีดำ",
+        "image_filename": "06ph_22_chemistry_pen_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_22_chemistry_pen_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "23_ปากไวท์ สีน้ำเงิน",
+        "image_filename": "06ph_23_white_lips_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_23_white_lips_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "24_ปากไวท์บอร์ด สีแดง",
+        "image_filename": "06ph_24_red_whiteboard_mouth.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_24_red_whiteboard_mouth.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "25_ปากไวท์บอร์ด สีดำ",
+        "image_filename": "06ph_25_whiteboard_mouth_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_25_whiteboard_mouth_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "26_ปากกาเมจิค สีน้ำเงิน",
+        "image_filename": "06ph_26_magic_pen_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_26_magic_pen_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "27_ปากกาลูกลื่น สีน้ำเงิน",
+        "image_filename": "06ph_27_blue_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_27_blue_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "28_ปากกาลูกลื่น สีแดง",
+        "image_filename": "06ph_28_red_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_28_red_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "28_ปากกาลูกลื่น สีแดง",
+        "image_filename": "06ph_28_red_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_28_red_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "29_ปากกาข้อความ คละสี",
+        "image_filename": "06ph_29_message_pens_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_29_message_pens_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "30_ดินสอ 2B",
+        "image_filename": "06ph_30_pencil_2b.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_30_pencil_2b.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "31_ยางลบ",
+        "image_filename": "06ph_31_eraser.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_31_eraser.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "32_หมึกเติมปากกาไวท์บอร์ด สีแดง",
+        "image_filename": "06ph_32_whiteboard_pen_refill_ink_red.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_32_whiteboard_pen_refill_ink_red.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "33_หมึกเติมปากกาไวท์บอร์ด สีดำ",
+        "image_filename": "06ph_33_whiteboard_pen_refill_ink_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_33_whiteboard_pen_refill_ink_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "34_แปรงลบกระดานไวท์บอร์ด",
+        "image_filename": "06ph_34_whiteboard_eraser_brush.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_34_whiteboard_eraser_brush.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "35_หมึกเติมตลับชาด สีน้ำเงิน",
+        "image_filename": "06ph_35_ink_refill_cartridge_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_35_ink_refill_cartridge_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "36_หมึกเติมตลับชาด สีแดง",
+        "image_filename": "06ph_36_red_red_ink_cartridge_refill.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_36_red_red_ink_cartridge_refill.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "37_หมึกเติมตลับชาด สีดำ",
+        "image_filename": "06ph_37_ink_refill_cartridge_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_37_ink_refill_cartridge_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "37_หมึกเติมตลับชาด สีดำ",
+        "image_filename": "06ph_37_ink_refill_cartridge_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_37_ink_refill_cartridge_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "38_ตลับหมึกสำหรับตรายางวันที่",
+        "image_filename": "06ph_38_ink_cartridge_for_date_stamps.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_38_ink_cartridge_for_date_stamps.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "39_หมึกเติมตรายางสำหรับตรายางหมึกในตัว",
+        "image_filename": "06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "39_หมึกเติมตรายางสำหรับตรายางหมึกในตัว",
+        "image_filename": "06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "40_ลวดเสียบกระดาษ ขนาดใหญ่ No.00",
+        "image_filename": "06ph_40_wire_for_inserting_paper_large_size_no.00.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_40_wire_for_inserting_paper_large_size_no.00.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "41_ลวดเสียบกระดาษ ขนาดเล็ก No.01",
+        "image_filename": "06ph_41_paper_wire_small_size_no.01.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_41_paper_wire_small_size_no.01.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "42_คลิปหนีบสีดำ 2 ขา เบอร์ 108",
+        "image_filename": "06ph_42_black_clip_2_legs_number_108.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_42_black_clip_2_legs_number_108.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "43_คลิปหนีบสีดำ 2 ขา เบอร์ 109",
+        "image_filename": "06ph_43_black_clip_2_legs_number_109.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_43_black_clip_2_legs_number_109.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "44_ปหนีบสีดำ 2 ขา เบอร์ 111",
+        "image_filename": "06ph_44_black_clamp_2_legs_number_111.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_44_black_clamp_2_legs_number_111.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "45_หมุดสำหรับติดบอร์ด หัวพลาสติก",
+        "image_filename": "06ph_45_pins_for_attaching_to_boards_plastic_heads.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_45_pins_for_attaching_to_boards_plastic_heads.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "45_หมุดสำหรับติดบอร์ด หัวพลาสติก",
+        "image_filename": "06ph_45_pins_for_attaching_to_boards_plastic_heads.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_45_pins_for_attaching_to_boards_plastic_heads.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "46_หมุดสำหรับติดบอร์ด หัวเหล็ก",
+        "image_filename": "06ph_46_pins_for_attaching_to_boards_steel_heads.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_46_pins_for_attaching_to_boards_steel_heads.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "46_หมุดสำหรับติดบอร์ด หัวเหล็ก",
+        "image_filename": "06ph_46_pins_for_attaching_to_boards_steel_heads.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_46_pins_for_attaching_to_boards_steel_heads.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "47_สก๊อตเทปใส ขนาดเล็ก",
+        "image_filename": "06ph_47_clear_scotch_tape_small_size.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_47_clear_scotch_tape_small_size.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "48_สก๊อตเทปใส ขนาดใหญ่",
+        "image_filename": "06ph_48_clear_scotch_tape_large_size.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_48_clear_scotch_tape_large_size.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "49_กระดาษ A4",
+        "image_filename": "06ph_49_a4_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_49_a4_paper.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "49_กระดาษ A4",
+        "image_filename": "06ph_49_a4_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_49_a4_paper.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "50_กระดาษการ์ด ขนาด 80 แกรม คละสี",
+        "image_filename": "06ph_50_card_paper_size_80_grams_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_50_card_paper_size_80_grams_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "51_กระดาษการ์ด ขนาด 150 แกรม สีขาว",
+        "image_filename": "06ph_51_card_paper_size_150_grams_white.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_51_card_paper_size_150_grams_white.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "52_กระดาษการ์ด ขนาด 150 แกรม คละสี",
+        "image_filename": "06ph_52_card_paper_size_150_grams_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_52_card_paper_size_150_grams_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "53_กระดาษโฟโต้ ขนาด 150 แกรม",
+        "image_filename": "06ph_53_photo_paper_size_150_grams.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_53_photo_paper_size_150_grams.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "54_กระดาษสติ้กเกอร์ แบบด้าน",
+        "image_filename": "06ph_54_sticker_paper_matte_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_54_sticker_paper_matte_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "54_กระดาษสติ้กเกอร์ แบบด้าน",
+        "image_filename": "06ph_54_sticker_paper_matte_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_54_sticker_paper_matte_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "55_กระดาษสติ้กเกอร์ แบบใส",
+        "image_filename": "06ph_55_transparent_sticker_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_55_transparent_sticker_paper.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "56_กระดาษเคลือบร้อน",
+        "image_filename": "06ph_56_hot_coated_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_56_hot_coated_paper.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "56_กระดาษเคลือบร้อน",
+        "image_filename": "06ph_56_hot_coated_paper.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_56_hot_coated_paper.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "57_รองปกใส",
+        "image_filename": "06ph_57_clear_cover.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_57_clear_cover.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "58_กระดาษโน๊ตกาวในตัว คละสี Deli",
+        "image_filename": "06ph_58_self-adhesive_note_paper_assorted_colors_deli.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_58_self-adhesive_note_paper_assorted_colors_deli.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "59_ซองจดหมายสีขาว มีครุฑ",
+        "image_filename": "06ph_59_white_envelope_with_garuda.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_59_white_envelope_with_garuda.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "60_ซองจดหมายสีขาว ไม่มีครุฑ",
+        "image_filename": "06ph_60_white_envelope_no_garuda.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_60_white_envelope_no_garuda.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "60_ซองจดหมายสีขาว ไม่มีครุฑ",
+        "image_filename": "06ph_60_white_envelope_no_garuda.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_60_white_envelope_no_garuda.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "61_ซองเอกสารสีน้ำตาล มีครุฑ ขยายข้าง",
+        "image_filename": "06ph_61_brown_document_envelope_with_garuda_enlarged_side.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_61_brown_document_envelope_with_garuda_enlarged_side.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "62_ซองเอกสารสีน้ำตาล มีครุฑ ไม่ขยายข้าง",
+        "image_filename": "06ph_62_brown_document_envelope_with_garuda_sides_not_expanded..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_62_brown_document_envelope_with_garuda_sides_not_expanded..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "63_เทปกระดาษกาวย่น สีขาว ขนาด 1 นิ้ว",
+        "image_filename": "06ph_63_white_crepe_masking_tape_size_1_inch.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_63_white_crepe_masking_tape_size_1_inch.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "64_เทปกระดาษกาวย่น สีขาว ขนาด 1.5 นิ้ว",
+        "image_filename": "06ph_64_white_crepe_masking_tape_size_1.5_inches.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_64_white_crepe_masking_tape_size_1.5_inches.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "65_เทปผ้า ขนาด 1 นิ้ว คละสี",
+        "image_filename": "06ph_65_cloth_tape_size_1_inch_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_65_cloth_tape_size_1_inch_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "66_เทปผ้า ขนาด 2 นิ้ว คละสี",
+        "image_filename": "06ph_66_cloth_tape_size_2_inches_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_66_cloth_tape_size_2_inches_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "67_เทปผ้า ขนาด 3 นิ้ว คละสี",
+        "image_filename": "06ph_67_cloth_tape_size_3_inches_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_67_cloth_tape_size_3_inches_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "68_เทปกาว 2 หน้า (แบบบาง)",
+        "image_filename": "06ph_68_double-sided_adhesive_tape_thin_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_68_double-sided_adhesive_tape_thin_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "69_เทปกาว 2 หน้า (แบบหนา)",
+        "image_filename": "06ph_69_double-sided_adhesive_tape_thick_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_69_double-sided_adhesive_tape_thick_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "69_เทปกาว 2 หน้า (แบบหนา)",
+        "image_filename": "06ph_69_double-sided_adhesive_tape_thick_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_69_double-sided_adhesive_tape_thick_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "70_สันรูด ขนาด 5 มม. คละสี",
+        "image_filename": "06ph_70_ridge_size_5_mm._assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_70_ridge_size_5_mm._assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "71_สันรูด ขนาด 10 มม. คละสี",
+        "image_filename": "06ph_71_ridge_size_10_mm._assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_71_ridge_size_10_mm._assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "72_สันห่วงกระดูกงู ขนาด 10 มม. คละสี",
+        "image_filename": "06ph_72_steel_ring_spine_size_10_mm._assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_72_steel_ring_spine_size_10_mm._assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "73_สันห่วงกระดูกงู ขนาด 19 มม. คละสี",
+        "image_filename": "06ph_73_steel_ring_spine_size_19_mm._assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_73_steel_ring_spine_size_19_mm._assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "74_ธงชาติไทย ขนาด 60_90",
+        "image_filename": "06ph_74_thai_flag_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_74_thai_flag_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "75_ธงชาติไทย ขนาด 200_300",
+        "image_filename": "06ph_75_thai_national_flag_size_200_300.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_75_thai_national_flag_size_200_300.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "76_ธงพระพันปีหลวง ขนาด 60_90",
+        "image_filename": "06ph_76_phra_panpi_luang_flag_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_76_phra_panpi_luang_flag_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "76_ธงพระพันปีหลวง ขนาด 60_90",
+        "image_filename": "06ph_76_phra_panpi_luang_flag_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_76_phra_panpi_luang_flag_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "77_ธงรัชกาลที่ 10 ขนาด 60_90",
+        "image_filename": "06ph_77_flag_of_king_rama_x_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_77_flag_of_king_rama_x_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "78_ธงราชินีสุทิดาฯ ขนาด 60_90",
+        "image_filename": "06ph_78_queen_suthida_s_flag_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_78_queen_suthida_s_flag_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "79_ธงครบรอบ 72 พรรษา ร.10 ขนาด 60_90",
+        "image_filename": "06ph_79_flag_for_the_72nd_anniversary_of_rama_10_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_79_flag_for_the_72nd_anniversary_of_rama_10_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "80_ธงสมเด็จพระเทพฯ ขนาด 60_90",
+        "image_filename": "06ph_80_flag_of_her_royal_highness_princess_maha_chakri_sirindhorn_size_60_90.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_80_flag_of_her_royal_highness_princess_maha_chakri_sirindhorn_size_60_90.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "81_ธงพระองค์เจ้าสิริวัณณวรีนารีรัตน์",
+        "image_filename": "06ph_81_flag_of_her_royal_highness_princess_sirivannavari_nariratana.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_81_flag_of_her_royal_highness_princess_sirivannavari_nariratana.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "82_ธงตราสัญลักษณ์ เจ้าฟ้าจุฬาภรณวลัยลักษณ์",
+        "image_filename": "06ph_82_flag_emblem_princess_chulabhorn_walailak.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_82_flag_emblem_princess_chulabhorn_walailak.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "83_มีดเตอร์ ขนาดใหญ่",
+        "image_filename": "06ph_83_large_knife_cutter.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_83_large_knife_cutter.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "83_มีดเตอร์ ขนาดใหญ่",
+        "image_filename": "06ph_83_large_knife_cutter.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_83_large_knife_cutter.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "84_มีดคัตเตอร์ ขนาดเล็ก",
+        "image_filename": "06ph_84_small_cutter_knife.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_84_small_cutter_knife.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "85_ใบมีดคัตเตอร์ ขนาดใหญ่ No.L",
+        "image_filename": "06ph_85_large_cutter_blade_no.l.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_85_large_cutter_blade_no.l.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "86_ใบมีดคัตเตอร์ ขนาดเล็ก No.A",
+        "image_filename": "06ph_86_cutter_blade_small_size_no.a.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_86_cutter_blade_small_size_no.a.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "87_สมุดลงเวลาปฏิบัติราชการ (หน้าเดี่ยว) จ้าง",
+        "image_filename": "06ph_87_official_service_time_book_single_page_hired.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_87_official_service_time_book_single_page_hired.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "87_สมุดลงเวลาปฏิบัติราชการ (หน้าเดี่ยว) จ้าง",
+        "image_filename": "06ph_87_official_service_time_book_single_page_hired.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_87_official_service_time_book_single_page_hired.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "88_สมุดลงเวลาปฏิบัติราชการ (หน้าคู่) ขรก.",
+        "image_filename": "06ph_88_official_duty_time_book_double_page.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_88_official_duty_time_book_double_page.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "88_สมุดลงเวลาปฏิบัติราชการ (หน้าคู่) ขรก.",
+        "image_filename": "06ph_88_official_duty_time_book_double_page.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_88_official_duty_time_book_double_page.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "89_สมุดปกน้ำเงิน",
+        "image_filename": "06ph_89_blue_cover_book.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_89_blue_cover_book.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "89_สมุดปกน้ำเงิน",
+        "image_filename": "06ph_89_blue_cover_book.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_89_blue_cover_book.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "90_สมุดปกแข็ง ขนาด 2_80",
+        "image_filename": "06ph_90_hard_cover_book_size_2_80.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_90_hard_cover_book_size_2_80.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "91_สมุดปกน้ำเงิน ขนาด 4_100",
+        "image_filename": "06ph_91_blue_cover_notebook_size_4_100.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_91_blue_cover_notebook_size_4_100.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "92_แฟ้มสีดำ สันห่วง ขนาด 1 นิ้ว",
+        "image_filename": "06ph_92_black_file_ring_spine_size_1_inch..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_92_black_file_ring_spine_size_1_inch..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "92_แฟ้มสีดำ สันห่วง ขนาด 1 นิ้ว",
+        "image_filename": "06ph_92_black_file_ring_spine_size_1_inch..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_92_black_file_ring_spine_size_1_inch..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "93_แฟ้มสีดำ สันห่วง ขนาด 2 นิ้ว",
+        "image_filename": "06ph_93_black_file_ring_spine_size_2_inches..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_93_black_file_ring_spine_size_2_inches..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "93_แฟ้มสีดำ สันห่วง ขนาด 2 นิ้ว",
+        "image_filename": "06ph_93_black_file_ring_spine_size_2_inches..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_93_black_file_ring_spine_size_2_inches..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "94_แฟ้มสีดำ สันห่วง ขนาด 3 นิ้ว",
+        "image_filename": "06ph_94_black_file_ring_spine_size_3_inches..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_94_black_file_ring_spine_size_3_inches..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "94_แฟ้มสีดำ สันห่วง ขนาด 3 นิ้ว",
+        "image_filename": "06ph_94_black_file_ring_spine_size_3_inches..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_94_black_file_ring_spine_size_3_inches..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "95_บัตรบันทึกเวลาทำงาน",
+        "image_filename": "06ph_95_working_time_record_card.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_95_working_time_record_card.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "96_แฟ้มเสนอเซ็น",
+        "image_filename": "06ph_96_proposal_file_for_signing.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_96_proposal_file_for_signing.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "97_เครื่องคิดเลข",
+        "image_filename": "06ph_97_calculator.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_97_calculator.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "98_กรรไกร",
+        "image_filename": "06ph_98_scissors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_98_scissors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "99_ลวดเส้นเล็ก (ขดใหญ่)",
+        "image_filename": "06ph_99_small_wire_large_coil.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_99_small_wire_large_coil.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "99_ลวดเส้นเล็ก (ขดใหญ่)",
+        "image_filename": "06ph_99_small_wire_large_coil.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_99_small_wire_large_coil.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "01_mosquito_repellent_souffl",
+        "image_filename": "06ph_01_liquid_liquid.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_01_liquid_liquid.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "01_ยากันยุง (ซออฟเฟล)",
+        "image_filename": "06ph_01_liquid_liquid.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_01_liquid_liquid.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "02_art",
+        "image_filename": "06ph_02_liquid_tape_type_replaceable_for_refills.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_02_liquid_tape_type_replaceable_for_refills.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "02_อาร์ต",
+        "image_filename": "06ph_02_liquid_tape_type_replaceable_for_refills.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_02_liquid_tape_type_replaceable_for_refills.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "03_sai_abate",
+        "image_filename": "06ph_03_refill_tape_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_03_refill_tape_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "03_ทรายอะเบท",
+        "image_filename": "06ph_03_refill_tape_type.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_03_refill_tape_type.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "04_mosquito_exterminator",
+        "image_filename": "06ph_04_uhu_stick.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_04_uhu_stick.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "04_น้ำยากำจัดยุง",
+        "image_filename": "06ph_04_uhu_stick.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_04_uhu_stick.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "05_alcohol",
+        "image_filename": "06ph_05_water_glue_bottle_size_150_cc..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_05_water_glue_bottle_size_150_cc..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "05_แอลกอฮอล์",
+        "image_filename": "06ph_05_water_glue_bottle_size_150_cc..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_05_water_glue_bottle_size_150_cc..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "06_alcohol_gel",
+        "image_filename": "06ph_06_liquid_glue_tube_size_50_ml..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_06_liquid_glue_tube_size_50_ml..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "06_แอลกอฮอล์เจล",
+        "image_filename": "06ph_06_liquid_glue_tube_size_50_ml..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_06_liquid_glue_tube_size_50_ml..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "07_saline_solution_for_cleaning_wounds",
+        "image_filename": "06ph_07_latax_glue_size_8_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_07_latax_glue_size_8_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "07_น้ำเกลือล้างแผล",
+        "image_filename": "06ph_07_latax_glue_size_8_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_07_latax_glue_size_8_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "08_rubber_gloves_orange",
+        "image_filename": "06ph_08_latax_glue_size_16_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_08_latax_glue_size_16_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "08_ถุงมือยาง (สีส้ม)",
+        "image_filename": "06ph_08_latax_glue_size_16_ounces.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_08_latax_glue_size_16_ounces.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "09_kn95_face_mask",
+        "image_filename": "06ph_09_max_stapler_no._10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_09_max_stapler_no._10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "09_หน้ากากอนามัย KN95",
+        "image_filename": "06ph_09_max_stapler_no._10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_09_max_stapler_no._10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "10_cotton_balls",
+        "image_filename": "06ph_10_max_stapler_no._35.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_10_max_stapler_no._35.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "10_สำลีก้อน",
+        "image_filename": "06ph_10_max_stapler_no._35.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_10_max_stapler_no._35.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "11_cotton_buds",
+        "image_filename": "06ph_11_max_stapler_no._m3.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_11_max_stapler_no._m3.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "11_สำลีก้าน",
+        "image_filename": "06ph_11_max_stapler_no._m3.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_11_max_stapler_no._m3.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "12_fingertip_oxygen_meter",
+        "image_filename": "06ph_12_max_stapler_no._m8.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_12_max_stapler_no._m8.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "12_เครื่องวัดออกซิเจนปลายนิ้ว",
+        "image_filename": "06ph_12_max_stapler_no._m8.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_12_max_stapler_no._m8.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "13_tunige_big",
+        "image_filename": "06ph_13_max_stapler_no._23_10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_13_max_stapler_no._23_10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "13_ทูนิเก้ (ใหญ่)",
+        "image_filename": "06ph_13_max_stapler_no._23_10.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_13_max_stapler_no._23_10.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "14_tunike_small",
+        "image_filename": "06ph_14_max_stapler_no._23_13.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_14_max_stapler_no._23_13.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "14_ทูนิเก้ (เล็ก)",
+        "image_filename": "06ph_14_max_stapler_no._23_13.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_14_max_stapler_no._23_13.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "15_tunique_strap_type",
+        "image_filename": "06ph_15_max_stapler_no._23_24.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_15_max_stapler_no._23_24.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "15_ทูนิเก้ (แบบสายรัด)",
+        "image_filename": "06ph_15_max_stapler_no._23_24.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_15_max_stapler_no._23_24.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "16_sugar_needle",
+        "image_filename": "06ph_16_shooting_wire_size_t3-10_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_16_shooting_wire_size_t3-10_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "16_เข็มเจาะน้ำตาล",
+        "image_filename": "06ph_16_shooting_wire_size_t3-10_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_16_shooting_wire_size_t3-10_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "17_wound_dressing_tape_1_inch",
+        "image_filename": "06ph_17_shooting_wire_size_t3-13_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_17_shooting_wire_size_t3-13_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "17_เทปแต่งแผล 1 นิ้ว",
+        "image_filename": "06ph_17_shooting_wire_size_t3-13_mb.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_17_shooting_wire_size_t3-13_mb.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "18_wound_dressing_tape_inch",
+        "image_filename": "06ph_18_large_stapler_hd-50r.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_18_large_stapler_hd-50r.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "18_เทปแต่งแผล ½ นิ้ว",
+        "image_filename": "06ph_18_large_stapler_hd-50r.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_18_large_stapler_hd-50r.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "19_bandage_2_inches",
+        "image_filename": "06ph_19_stapling_mag_no._10.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_19_stapling_mag_no._10.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "19_ผ้าพันเคล็ด 2 นิ้ว",
+        "image_filename": "06ph_19_stapling_mag_no._10.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_19_stapling_mag_no._10.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "20_3_inch_sprain_bandage",
+        "image_filename": "06ph_20_blue_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_20_blue_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "20_ผ้าพันเคล็ด 3 นิ้ว",
+        "image_filename": "06ph_20_blue_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_20_blue_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "21_4_inch_sprain_bandage",
+        "image_filename": "06ph_21_red_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_21_red_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "21_ผ้าพันเคล็ด 4 นิ้ว",
+        "image_filename": "06ph_21_red_chemical_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_21_red_chemical_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "22_alcohol_capsule_form",
+        "image_filename": "06ph_22_chemistry_pen_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_22_chemistry_pen_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "22_แอลกอฮอล์ (แบบแคปซูน)",
+        "image_filename": "06ph_22_chemistry_pen_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_22_chemistry_pen_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "23_glucose_level_measurement_sheet",
+        "image_filename": "06ph_23_white_lips_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_23_white_lips_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "23_แผ่นวัดระดับน้ำตาล",
+        "image_filename": "06ph_23_white_lips_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_23_white_lips_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "24_got_3_inches",
+        "image_filename": "06ph_24_red_whiteboard_mouth.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_24_red_whiteboard_mouth.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "24_ก็อต 3 นิ้ว",
+        "image_filename": "06ph_24_red_whiteboard_mouth.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_24_red_whiteboard_mouth.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "25_3m_hygienic_mask",
+        "image_filename": "06ph_25_whiteboard_mouth_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_25_whiteboard_mouth_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "25_หน้ากากอนามัย 3M",
+        "image_filename": "06ph_25_whiteboard_mouth_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_25_whiteboard_mouth_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "26_rollgot_2_inches",
+        "image_filename": "06ph_26_magic_pen_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_26_magic_pen_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "26_โรลก็อต 2 นิ้ว",
+        "image_filename": "06ph_26_magic_pen_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_26_magic_pen_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "27_rollgot_3_inches",
+        "image_filename": "06ph_27_blue_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_27_blue_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "27_โรลก็อต 3 นิ้ว",
+        "image_filename": "06ph_27_blue_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_27_blue_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "28_hygienic_mask_adult",
+        "image_filename": "06ph_28_red_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_28_red_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "28_หน้ากากอนามัย (ผู้ใหญ่)",
+        "image_filename": "06ph_28_red_ballpoint_pen.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_28_red_ballpoint_pen.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "29_hygienic_mask_children",
+        "image_filename": "06ph_29_message_pens_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_29_message_pens_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "29_หน้ากากอนามัย (เด็ก)",
+        "image_filename": "06ph_29_message_pens_assorted_colors.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_29_message_pens_assorted_colors.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "30_gloves_size_s",
+        "image_filename": "06ph_30_pencil_2b.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_30_pencil_2b.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "30_ถุงมือ Size S",
+        "image_filename": "06ph_30_pencil_2b.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_30_pencil_2b.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "31_gloves_size_m",
+        "image_filename": "06ph_31_eraser.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_31_eraser.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "31_ถุงมือ Size M",
+        "image_filename": "06ph_31_eraser.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_31_eraser.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "32_gloves_size_l",
+        "image_filename": "06ph_32_whiteboard_pen_refill_ink_red.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_32_whiteboard_pen_refill_ink_red.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "32_ถุงมือ Size L",
+        "image_filename": "06ph_32_whiteboard_pen_refill_ink_red.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_32_whiteboard_pen_refill_ink_red.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "33_blood_sugar_level_meter",
+        "image_filename": "06ph_33_whiteboard_pen_refill_ink_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_33_whiteboard_pen_refill_ink_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "33_เครื่องวัดระดับน้ำตาลในเลือด",
+        "image_filename": "06ph_33_whiteboard_pen_refill_ink_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_33_whiteboard_pen_refill_ink_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "34_got_4_inches",
+        "image_filename": "06ph_34_whiteboard_eraser_brush.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_34_whiteboard_eraser_brush.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "34_ก็อต 4 นิ้ว",
+        "image_filename": "06ph_34_whiteboard_eraser_brush.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_34_whiteboard_eraser_brush.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "35_oxygen_gauge",
+        "image_filename": "06ph_35_ink_refill_cartridge_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_35_ink_refill_cartridge_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "35_เกจ์ออกซิเจน",
+        "image_filename": "06ph_35_ink_refill_cartridge_blue.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_35_ink_refill_cartridge_blue.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "36_ppe_set",
+        "image_filename": "06ph_36_red_red_ink_cartridge_refill.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_36_red_red_ink_cartridge_refill.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "36_ชุด PPE",
+        "image_filename": "06ph_36_red_red_ink_cartridge_refill.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_36_red_red_ink_cartridge_refill.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "37_rubber_apron",
+        "image_filename": "06ph_37_ink_refill_cartridge_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_37_ink_refill_cartridge_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "37_ผ้ายางกันเปื้อน",
+        "image_filename": "06ph_37_ink_refill_cartridge_black.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_37_ink_refill_cartridge_black.jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "38_hair_covering_hat",
+        "image_filename": "06ph_38_ink_cartridge_for_date_stamps.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_38_ink_cartridge_for_date_stamps.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "38_หมวกคลุมผม",
+        "image_filename": "06ph_38_ink_cartridge_for_date_stamps.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_38_ink_cartridge_for_date_stamps.png"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "39_ambuback_child",
+        "image_filename": "06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg"
+    },
+    {
+        "dept_code": "06ph",
+        "name_th": "39_แอมบูแบค (เด็ก)",
+        "image_filename": "06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/06ph/06ph_39_rubber_stamp_refill_ink_for_self-inking_rubber_stamps..jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "01_กระดาษ A4",
+        "image_filename": "01palad_01_a4_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_01_a4_paper.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "02_ซองน้ำตาลไม่ขยายข้าง",
+        "image_filename": "01palad_02_sugar_packets_do_not_expand_on_the_sides..png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_02_sugar_packets_do_not_expand_on_the_sides..png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "03_ซองน้ำตาลขยายข้าง",
+        "image_filename": "01palad_03_sugar_envelope_with_side_expansion.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_03_sugar_envelope_with_side_expansion.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "04_กระดาษการ์ดสี",
+        "image_filename": "01palad_04_colored_card_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_04_colored_card_paper.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "05_กระดาษแบงค์",
+        "image_filename": "01palad_05_bank_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_05_bank_paper.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "06_กระดาษการ์ดขาว",
+        "image_filename": "01palad_06_white_card_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_06_white_card_paper.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "07_สมุดปกน้ำเงิน",
+        "image_filename": "01palad_07_blue_cover_book.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_07_blue_cover_book.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "08_สมุดลงเวลาปฏิบัติราชการ",
+        "image_filename": "01palad_08_office_time_book.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_08_office_time_book.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "09_แฟ้มขนาด 3 นิ้ว",
+        "image_filename": "01palad_09_3_inch_file.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_09_3_inch_file.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "10_ปากกาไวน์บอร์ด",
+        "image_filename": "01palad_10_wine_board_pen.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_10_wine_board_pen.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "11_คลิบบอร์ดเอกสาร",
+        "image_filename": "01palad_11_document_clipboard.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_11_document_clipboard.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "12_เทปลบคำผิด",
+        "image_filename": "01palad_12_correction_tape.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_12_correction_tape.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "13_กระดาษโฟโต้",
+        "image_filename": "01palad_13_photo_paper.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_13_photo_paper.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "14_ที่ดึงกระดาษ",
+        "image_filename": "01palad_14_paper_puller.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_14_paper_puller.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "15_ปากกาลูกลื่น",
+        "image_filename": "01palad_15_ballpoint_pen.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_15_ballpoint_pen.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "16_เทปใส ขนาด ¾ นิ้ว",
+        "image_filename": "01palad_16_clear_tape_size_inch.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_16_clear_tape_size_inch.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "17_ซองขาว",
+        "image_filename": "01palad_17_white_envelope.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_17_white_envelope.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "18_คลิบดำ เบอร์ 111",
+        "image_filename": "01palad_18_black_clip_number_111.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_18_black_clip_number_111.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "19_ลวดเสียบกระดาษ เบอร์ 00",
+        "image_filename": "01palad_19_paper_wire_size_00.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_19_paper_wire_size_00.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "20_ลวดเสียบกระดาษ เบอร์ 1",
+        "image_filename": "01palad_20_paper_wire_no._1.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_20_paper_wire_no._1.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "21_คลิบดำ เบอร์ 111",
+        "image_filename": "01palad_21_black_clip_number_111.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_21_black_clip_number_111.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "22_ลวดเย็บกระดาษ เบอร์ 10",
+        "image_filename": "01palad_22_staple_number_10.png",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_22_staple_number_10.png"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "23_หมึก Canon B",
+        "image_filename": "01palad_23_canon_b_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_23_canon_b_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "24_หมึก Canon C",
+        "image_filename": "01palad_24_canon_c_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_24_canon_c_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "25_หมึก Canon Y",
+        "image_filename": "01palad_25_canon_y_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_25_canon_y_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "26_หมึก Canon M",
+        "image_filename": "01palad_26_canon_m_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_26_canon_m_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "27_หมึก Epson C",
+        "image_filename": "01palad_27_epson_c_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_27_epson_c_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "28_หมึก Epson  Y",
+        "image_filename": "01palad_28_epson_y_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_28_epson_y_ink.jpg"
+    },
+    {
+        "dept_code": "01palad",
+        "name_th": "29_หมึก Epson M",
+        "image_filename": "01palad_29_epson_m_ink.jpg",
+        "image_url": "https://raw.githubusercontent.com/[USER]/[REPO]/main/products/01palad/01palad_29_epson_m_ink.jpg"
+    }
+]

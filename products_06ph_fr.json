@@ -1,0 +1,407 @@
+[
+  {
+    "id": "06ph_fr_01",
+    "name": "ยากันยุง (ซอฟเฟล)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 48,
+    "unit": "ซอง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_01_soffell_mosquito_repellent.jpg"
+  },
+  {
+    "id": "06ph_fr_02",
+    "name": "อาท สเปรย์กำจัดยุงและแมลง ขนาด 300 มล.",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 23,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_02_ars_mosquito_spray_300ml.jpg"
+  },
+  {
+    "id": "06ph_fr_03",
+    "name": "อาท สเปรย์กำจัดยุงและแมลง ขนาด 600 มล.",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 24,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_03_ars_mosquito_spray_600ml.jpg"
+  },
+  {
+    "id": "06ph_fr_04",
+    "name": "ทรายอะเบท",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 7,
+    "unit": "ถัง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_04_abate_sand.jpg"
+  },
+  {
+    "id": "06ph_fr_05",
+    "name": "น้ำยากำจัดยุง",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 20,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_05_mosquito_repellent_liquid.jpg"
+  },
+  {
+    "id": "06ph_fr_06",
+    "name": "แอลกอฮอล์",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 4,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_06_alcohol.jpg"
+  },
+  {
+    "id": "06ph_fr_07",
+    "name": "แอลกอฮอล์เจล",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 3,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_07_alcohol_gel.jpg"
+  },
+  {
+    "id": "06ph_fr_08",
+    "name": "น้ำเกลือล้างแผล",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 4,
+    "unit": "ขวด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_08_saline_wound_cleanser.jpg"
+  },
+  {
+    "id": "06ph_fr_09",
+    "name": "ถุงมือยาง (สีส้ม) Size M",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 10,
+    "unit": "คู่",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_09_orange_rubber_gloves_size_m.jpg"
+  },
+  {
+    "id": "06ph_fr_10",
+    "name": "ถุงมือยาง (สีส้ม) Free Size",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 4,
+    "unit": "คู่",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_10_orange_rubber_gloves_free_size.jpg"
+  },
+  {
+    "id": "06ph_fr_11",
+    "name": "หน้ากากอนามัย KN95",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 50,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_11_kn95_mask.jpg"
+  },
+  {
+    "id": "06ph_fr_12",
+    "name": "สำลีก้อน",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 2,
+    "unit": "แพ็ค",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_12_cotton_balls.jpg"
+  },
+  {
+    "id": "06ph_fr_13",
+    "name": "สำลีก้าน Size M",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 4,
+    "unit": "แพ็ค",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_13_cotton_swabs_size_m.jpg"
+  },
+  {
+    "id": "06ph_fr_14",
+    "name": "สำลีก้าน Size L",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 2,
+    "unit": "แพ็ค",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_14_cotton_swabs_size_l.jpg"
+  },
+  {
+    "id": "06ph_fr_15",
+    "name": "เครื่องวัดออกซิเจนปลายนิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 4,
+    "unit": "เครื่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_15_fingertip_pulse_oximeter.jpg"
+  },
+  {
+    "id": "06ph_fr_16",
+    "name": "ทูนิเก้ (ใหญ่)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 1,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_16_tourniquet_large.jpg"
+  },
+  {
+    "id": "06ph_fr_17",
+    "name": "ทูนิเก้ (เล็ก)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 1,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_17_tourniquet_small.jpg"
+  },
+  {
+    "id": "06ph_fr_18",
+    "name": "ทูนิเก้ (แบบสายรัด)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 1,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_18_tourniquet_strap.jpg"
+  },
+  {
+    "id": "06ph_fr_19",
+    "name": "เข็มเจาะน้ำตาล",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 24,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_19_blood_glucose_lancets.jpg"
+  },
+  {
+    "id": "06ph_fr_20",
+    "name": "เทปแต่งแผล 1 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 10,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_20_medical_tape_1_inch.jpg"
+  },
+  {
+    "id": "06ph_fr_21",
+    "name": "เทปแต่งแผล 1/2 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 10,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_21_medical_tape_half_inch.jpg"
+  },
+  {
+    "id": "06ph_fr_22",
+    "name": "ผ้าพันเคล็ด 2 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 5,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_22_elastic_bandage_2_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_23",
+    "name": "ผ้าพันเคล็ด 3 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 5,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_23_elastic_bandage_3_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_24",
+    "name": "ผ้าพันเคล็ด 4 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 5,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_24_elastic_bandage_4_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_25",
+    "name": "แอลกอฮอล์ (แบบแคปซูล)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 3,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_25_alcohol_swabs_capsule.jpg"
+  },
+  {
+    "id": "06ph_fr_26",
+    "name": "แผ่นวัดระดับน้ำตาล",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_26_blood_glucose_test_strips.jpg"
+  },
+  {
+    "id": "06ph_fr_27",
+    "name": "ผ้าก๊อซ 3 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 70,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_27_gauze_pads_3_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_28",
+    "name": "หน้ากากอนามัย 3M",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 14,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_28_3m_mask.jpg"
+  },
+  {
+    "id": "06ph_fr_29",
+    "name": "โรลก็อต 2 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 24,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_29_conforming_bandage_2_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_30",
+    "name": "โรลก็อต 3 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 24,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_30_conforming_bandage_3_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_31",
+    "name": "หน้ากากอนามัย (ผู้ใหญ่)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 10,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_31_adult_medical_mask.jpg"
+  },
+  {
+    "id": "06ph_fr_32",
+    "name": "หน้ากากอนามัย (เด็ก)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_32_child_medical_mask.jpg"
+  },
+  {
+    "id": "06ph_fr_33",
+    "name": "ถุงมือ Size S",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 9,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_33_latex_gloves_size_s.jpg"
+  },
+  {
+    "id": "06ph_fr_34",
+    "name": "ถุงมือ Size M",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 11,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_34_latex_gloves_size_m.jpg"
+  },
+  {
+    "id": "06ph_fr_35",
+    "name": "ถุงมือ Size L",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 5,
+    "unit": "กล่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_35_latex_gloves_size_l.jpg"
+  },
+  {
+    "id": "06ph_fr_36",
+    "name": "เครื่องวัดระดับน้ำตาลในเลือด",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 1,
+    "unit": "เครื่อง",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_36_blood_glucose_monitor.jpg"
+  },
+  {
+    "id": "06ph_fr_37",
+    "name": "ผ้าก๊อซ 4 นิ้ว",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 50,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_37_gauze_pads_4_inches.jpg"
+  },
+  {
+    "id": "06ph_fr_38",
+    "name": "เกจ์ออกซิเจน (ชำรุด)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 2,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_38_oxygen_regulator.jpg"
+  },
+  {
+    "id": "06ph_fr_39",
+    "name": "ชุด PPE Size L",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 5,
+    "unit": "ชุด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_39_ppe_suit_size_l.jpg"
+  },
+  {
+    "id": "06ph_fr_40",
+    "name": "ชุด PPE Size XL",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 22,
+    "unit": "ชุด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_40_ppe_suit_size_xl.jpg"
+  },
+  {
+    "id": "06ph_fr_41",
+    "name": "ชุด PPE Size 2XL",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 3,
+    "unit": "ชุด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_41_ppe_suit_size_2xl.jpg"
+  },
+  {
+    "id": "06ph_fr_42",
+    "name": "ชุด PPE Free Size",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 10,
+    "unit": "ชุด",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_42_ppe_suit_free_size.jpg"
+  },
+  {
+    "id": "06ph_fr_43",
+    "name": "ผ้ายางกันเปื้อน",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 19,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_43_rubber_apron.jpg"
+  },
+  {
+    "id": "06ph_fr_44",
+    "name": "หมวกคลุมผม",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 178,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_44_bouffant_cap.jpg"
+  },
+  {
+    "id": "06ph_fr_45",
+    "name": "แอมบูแบค (เด็ก)",
+    "division": "กองสาธารณสุขและสิ่งแวดล้อม",
+    "quantity": 1,
+    "unit": "ชิ้น",
+    "price": 0,
+    "image": "products/06ph_fr/06ph_fr_45_child_ambu_bag.jpg"
+  }
+]

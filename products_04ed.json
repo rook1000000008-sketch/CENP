@@ -1,0 +1,218 @@
+[
+  {
+    "id": "04ed_01",
+    "name": "กระดาษบรุ๊ปสีเทา",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "โหล",
+    "price": 48,
+    "image": "products/04ed/04ed_01_grey_newsprint_paper.png"
+  },
+  {
+    "id": "04ed_02",
+    "name": "แฟ้มสันกว้าง ขนาด 3 นิ้ว",
+    "division": "กองการศึกษา",
+    "quantity": 12,
+    "unit": "แฟ้ม",
+    "price": 95,
+    "image": "products/04ed/04ed_02_wide_folder_file_size_3_inches.png"
+  },
+  {
+    "id": "04ed_03",
+    "name": "ปากกาเน้นข้อความ",
+    "division": "กองการศึกษา",
+    "quantity": 4,
+    "unit": "ด้าม",
+    "price": 20,
+    "image": "products/04ed/04ed_03_highlighter_pen.png"
+  },
+  {
+    "id": "04ed_04",
+    "name": "มีดคัตเตอร์ใหญ่ NO ST-20",
+    "division": "กองการศึกษา",
+    "quantity": 4,
+    "unit": "อัน",
+    "price": 58,
+    "image": "products/04ed/04ed_04_cutter_knife_large_st20.png"
+  },
+  {
+    "id": "04ed_05",
+    "name": "กระดาษ A4 ขนาด 80 แกรม",
+    "division": "กองการศึกษา",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 600,
+    "image": "products/04ed/04ed_05_a4_paper_size_80_grams.png"
+  },
+  {
+    "id": "04ed_06",
+    "name": "กระดาษโฟโต้ 120 แกรม",
+    "division": "กองการศึกษา",
+    "quantity": 6,
+    "unit": "แพ็ค",
+    "price": 210,
+    "image": "products/04ed/04ed_06_photo_paper_120_grams.png"
+  },
+  {
+    "id": "04ed_07",
+    "name": "ที่เย็บกระดาษเบอร์ 10",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "อัน",
+    "price": 75,
+    "image": "products/04ed/04ed_07_stapler_number_10.png"
+  },
+  {
+    "id": "04ed_08",
+    "name": "ถ่าน AA ชนิด Alkaline",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "แพ็ค",
+    "price": 55,
+    "image": "products/04ed/04ed_08_aa_alkaline_battery.png"
+  },
+  {
+    "id": "04ed_09",
+    "name": "กระดาษสติ๊กเกอร์ ขาวด้าน A4",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "ห่อ",
+    "price": 150,
+    "image": "products/04ed/04ed_09_a4_matte_white_sticker_paper.png"
+  },
+  {
+    "id": "04ed_10",
+    "name": "ปากกาลูกลื่นสีน้ำเงิน ขนาด 0.5 มม.",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "กระปุก",
+    "price": 210,
+    "image": "products/04ed/04ed_10_blue_ballpoint_pen_05mm.png"
+  },
+  {
+    "id": "04ed_11",
+    "name": "ถ่าน AAA ชนิด Alkaline",
+    "division": "กองการศึกษา",
+    "quantity": 18,
+    "unit": "แพ็ค",
+    "price": 55,
+    "image": "products/04ed/04ed_11_aaa_alkaline_battery.png"
+  },
+  {
+    "id": "04ed_12",
+    "name": "ลวดเสียบกระดาษ เล็ก",
+    "division": "กองการศึกษา",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 85,
+    "image": "products/04ed/04ed_12_paper_clips_small.png"
+  },
+  {
+    "id": "04ed_13",
+    "name": "ลวดเสียบกระดาษ ใหญ่",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "กล่อง",
+    "price": 85,
+    "image": "products/04ed/04ed_13_paper_clips_large.png"
+  },
+  {
+    "id": "04ed_14",
+    "name": "คลิปดำ 2 ขา 25 มม.",
+    "division": "กองการศึกษา",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 175,
+    "image": "products/04ed/04ed_14_binder_clips_25mm.png"
+  },
+  {
+    "id": "04ed_15",
+    "name": "หมึกปริ้นเตอร์ Brother HL-L3270 ดำ",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "ตลับ",
+    "price": 2400,
+    "image": "products/04ed/04ed_15_brother_printer_ink_black.png"
+  },
+  {
+    "id": "04ed_16",
+    "name": "หมึกปริ้นเตอร์ Brother HL-L3270 แดง",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "กล่อง",
+    "price": 2400,
+    "image": "products/04ed/04ed_16_brother_printer_ink_red.png"
+  },
+  {
+    "id": "04ed_17",
+    "name": "คลิปดำ 2 ขา 50 มม.",
+    "division": "กองการศึกษา",
+    "quantity": 2,
+    "unit": "กล่อง",
+    "price": 175,
+    "image": "products/04ed/04ed_17_binder_clips_50mm.png"
+  },
+  {
+    "id": "04ed_18",
+    "name": "หมึกปริ้นเตอร์ Brother HL-L3270 น้ำเงิน",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "กล่อง",
+    "price": 2400,
+    "image": "products/04ed/04ed_18_brother_printer_ink_blue.png"
+  },
+  {
+    "id": "04ed_19",
+    "name": "เม้ามีสาย",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "อัน",
+    "price": 295,
+    "image": "products/04ed/04ed_19_wired_mouse.png"
+  },
+  {
+    "id": "04ed_20",
+    "name": "หมึกปริ้นเตอร์ EPSON L3110 สีแดง",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "ขวด",
+    "price": 290,
+    "image": "products/04ed/04ed_20_epson_ink_red.png"
+  },
+  {
+    "id": "04ed_21",
+    "name": "หมึกปริ้นเตอร์ EPSON L3110 สีน้ำเงิน",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "ขวด",
+    "price": 290,
+    "image": "products/04ed/04ed_21_epson_ink_blue.png"
+  },
+  {
+    "id": "04ed_22",
+    "name": "ชุดคีย์บอร์ดพร้อมเมาส์ แบบเชื่อมต่อ USB",
+    "division": "กองการศึกษา",
+    "quantity": 2,
+    "unit": "อัน",
+    "price": 380,
+    "image": "products/04ed/04ed_22_keyboard_and_mouse_set.png"
+  },
+  {
+    "id": "04ed_23",
+    "name": "หมึกปริ้นเตอร์ EPSON L3110 สีเหลือง",
+    "division": "กองการศึกษา",
+    "quantity": 3,
+    "unit": "ขวด",
+    "price": 290,
+    "image": "products/04ed/04ed_23_epson_ink_yellow.png"
+  },
+  {
+    "id": "04ed_24",
+    "name": "หมึกปริ้นเตอร์ Brother HL-L3270 เหลือง",
+    "division": "กองการศึกษา",
+    "quantity": 1,
+    "unit": "ตลับ",
+    "price": 2400,
+    "image": "products/04ed/04ed_24_brother_printer_ink_yellow.png"
+  }
+]
