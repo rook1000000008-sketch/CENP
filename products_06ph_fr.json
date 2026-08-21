@@ -6,7 +6,8 @@
     "quantity": 48,
     "unit": "ซอง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_01_soffell_mosquito_repellent.jpg"
+    "image": "products/06ph_fr/06ph_fr_01_soffell_mosquito_repellent.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_01_soffell_mosquito_repellent.jxr"
   },
   {
     "id": "06ph_fr_02",
@@ -15,7 +16,8 @@
     "quantity": 23,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_02_ars_mosquito_spray_300ml.jpg"
+    "image": "products/06ph_fr/06ph_fr_02_ars_mosquito_spray_300ml.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_02_ars_mosquito_spray_300ml.jxr"
   },
   {
     "id": "06ph_fr_03",
@@ -24,7 +26,8 @@
     "quantity": 24,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_03_ars_mosquito_spray_600ml.jpg"
+    "image": "products/06ph_fr/06ph_fr_03_ars_mosquito_spray_600ml.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_03_ars_mosquito_spray_600ml.jxr"
   },
   {
     "id": "06ph_fr_04",
@@ -33,7 +36,8 @@
     "quantity": 7,
     "unit": "ถัง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_04_abate_sand.jpg"
+    "image": "products/06ph_fr/06ph_fr_04_abate_sand.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_04_abate_sand.jxr"
   },
   {
     "id": "06ph_fr_05",
@@ -42,7 +46,8 @@
     "quantity": 20,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_05_mosquito_repellent_liquid.jpg"
+    "image": "products/06ph_fr/06ph_fr_05_mosquito_repellent_liquid.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_05_mosquito_repellent_liquid.jxr"
   },
   {
     "id": "06ph_fr_06",
@@ -51,7 +56,8 @@
     "quantity": 4,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_06_alcohol.jpg"
+    "image": "products/06ph_fr/06ph_fr_06_alcohol.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_06_alcohol.jxr"
   },
   {
     "id": "06ph_fr_07",
@@ -60,7 +66,8 @@
     "quantity": 3,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_07_alcohol_gel.jpg"
+    "image": "products/06ph_fr/06ph_fr_07_alcohol_gel.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_07_alcohol_gel.jxr"
   },
   {
     "id": "06ph_fr_08",
@@ -69,7 +76,8 @@
     "quantity": 4,
     "unit": "ขวด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_08_saline_wound_cleanser.jpg"
+    "image": "products/06ph_fr/06ph_fr_08_saline_wound_cleanser.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_08_saline_wound_cleanser.jxr"
   },
   {
     "id": "06ph_fr_09",
@@ -78,7 +86,8 @@
     "quantity": 10,
     "unit": "คู่",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_09_orange_rubber_gloves_size_m.jpg"
+    "image": "products/06ph_fr/06ph_fr_09_orange_rubber_gloves_size_m.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_09_orange_rubber_gloves_size_m.jxr"
   },
   {
     "id": "06ph_fr_10",
@@ -87,7 +96,8 @@
     "quantity": 4,
     "unit": "คู่",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_10_orange_rubber_gloves_free_size.jpg"
+    "image": "products/06ph_fr/06ph_fr_10_orange_rubber_gloves_free_size.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_10_orange_rubber_gloves_free_size.jxr"
   },
   {
     "id": "06ph_fr_11",
@@ -96,7 +106,8 @@
     "quantity": 50,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_11_kn95_mask.jpg"
+    "image": "products/06ph_fr/06ph_fr_11_kn95_mask.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_11_kn95_mask.jxr"
   },
   {
     "id": "06ph_fr_12",
@@ -105,7 +116,8 @@
     "quantity": 2,
     "unit": "แพ็ค",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_12_cotton_balls.jpg"
+    "image": "products/06ph_fr/06ph_fr_12_cotton_balls.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_12_cotton_balls.jxr"
   },
   {
     "id": "06ph_fr_13",
@@ -114,7 +126,8 @@
     "quantity": 4,
     "unit": "แพ็ค",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_13_cotton_swabs_size_m.jpg"
+    "image": "products/06ph_fr/06ph_fr_13_cotton_swabs_size_m.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_13_cotton_swabs_size_m.jxr"
   },
   {
     "id": "06ph_fr_14",
@@ -123,7 +136,8 @@
     "quantity": 2,
     "unit": "แพ็ค",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_14_cotton_swabs_size_l.jpg"
+    "image": "products/06ph_fr/06ph_fr_14_cotton_swabs_size_l.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_14_cotton_swabs_size_l.jxr"
   },
   {
     "id": "06ph_fr_15",
@@ -132,7 +146,8 @@
     "quantity": 4,
     "unit": "เครื่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_15_fingertip_pulse_oximeter.jpg"
+    "image": "products/06ph_fr/06ph_fr_15_fingertip_pulse_oximeter.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_15_fingertip_pulse_oximeter.jxr"
   },
   {
     "id": "06ph_fr_16",
@@ -141,7 +156,8 @@
     "quantity": 1,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_16_tourniquet_large.jpg"
+    "image": "products/06ph_fr/06ph_fr_16_tourniquet_large.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_16_tourniquet_large.jxr"
   },
   {
     "id": "06ph_fr_17",
@@ -150,7 +166,8 @@
     "quantity": 1,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_17_tourniquet_small.jpg"
+    "image": "products/06ph_fr/06ph_fr_17_tourniquet_small.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_17_tourniquet_small.jxr"
   },
   {
     "id": "06ph_fr_18",
@@ -159,7 +176,8 @@
     "quantity": 1,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_18_tourniquet_strap.jpg"
+    "image": "products/06ph_fr/06ph_fr_18_tourniquet_strap.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_18_tourniquet_strap.jxr"
   },
   {
     "id": "06ph_fr_19",
@@ -168,7 +186,8 @@
     "quantity": 24,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_19_blood_glucose_lancets.jpg"
+    "image": "products/06ph_fr/06ph_fr_19_blood_glucose_lancets.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_19_blood_glucose_lancets.jxr"
   },
   {
     "id": "06ph_fr_20",
@@ -177,7 +196,8 @@
     "quantity": 10,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_20_medical_tape_1_inch.jpg"
+    "image": "products/06ph_fr/06ph_fr_20_medical_tape_1_inch.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_20_medical_tape_1_inch.jxr"
   },
   {
     "id": "06ph_fr_21",
@@ -186,7 +206,8 @@
     "quantity": 10,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_21_medical_tape_half_inch.jpg"
+    "image": "products/06ph_fr/06ph_fr_21_medical_tape_half_inch.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_21_medical_tape_half_inch.jxr"
   },
   {
     "id": "06ph_fr_22",
@@ -195,7 +216,8 @@
     "quantity": 5,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_22_elastic_bandage_2_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_22_elastic_bandage_2_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_22_elastic_bandage_2_inches.jxr"
   },
   {
     "id": "06ph_fr_23",
@@ -204,7 +226,8 @@
     "quantity": 5,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_23_elastic_bandage_3_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_23_elastic_bandage_3_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_23_elastic_bandage_3_inches.jxr"
   },
   {
     "id": "06ph_fr_24",
@@ -213,7 +236,8 @@
     "quantity": 5,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_24_elastic_bandage_4_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_24_elastic_bandage_4_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_24_elastic_bandage_4_inches.jxr"
   },
   {
     "id": "06ph_fr_25",
@@ -222,7 +246,8 @@
     "quantity": 3,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_25_alcohol_swabs_capsule.jpg"
+    "image": "products/06ph_fr/06ph_fr_25_alcohol_swabs_capsule.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_25_alcohol_swabs_capsule.jxr"
   },
   {
     "id": "06ph_fr_26",
@@ -231,7 +256,8 @@
     "quantity": 2,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_26_blood_glucose_test_strips.jpg"
+    "image": "products/06ph_fr/06ph_fr_26_blood_glucose_test_strips.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_26_blood_glucose_test_strips.jxr"
   },
   {
     "id": "06ph_fr_27",
@@ -240,7 +266,8 @@
     "quantity": 70,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_27_gauze_pads_3_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_27_gauze_pads_3_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_27_gauze_pads_3_inches.jxr"
   },
   {
     "id": "06ph_fr_28",
@@ -249,7 +276,8 @@
     "quantity": 14,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_28_3m_mask.jpg"
+    "image": "products/06ph_fr/06ph_fr_28_3m_mask.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_28_3m_mask.jxr"
   },
   {
     "id": "06ph_fr_29",
@@ -258,7 +286,8 @@
     "quantity": 24,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_29_conforming_bandage_2_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_29_conforming_bandage_2_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_29_conforming_bandage_2_inches.jxr"
   },
   {
     "id": "06ph_fr_30",
@@ -267,7 +296,8 @@
     "quantity": 24,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_30_conforming_bandage_3_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_30_conforming_bandage_3_inches.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_30_conforming_bandage_3_inches.jxr"
   },
   {
     "id": "06ph_fr_31",
@@ -276,7 +306,8 @@
     "quantity": 10,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_31_adult_medical_mask.jpg"
+    "image": "products/06ph_fr/06ph_fr_31_adult_medical_mask.jxr",
+    "image_url": "products/06ph_fr/06ph_fr_31_adult_medical_mask.jxr"
   },
   {
     "id": "06ph_fr_32",
@@ -285,7 +316,8 @@
     "quantity": 2,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_32_child_medical_mask.jpg"
+    "image": "products/06ph_fr/06ph_fr_32_child_medical_mask.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_32_child_medical_mask.jpg"
   },
   {
     "id": "06ph_fr_33",
@@ -294,7 +326,8 @@
     "quantity": 9,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_33_latex_gloves_size_s.jpg"
+    "image": "products/06ph_fr/06ph_fr_33_latex_gloves_size_s.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_33_latex_gloves_size_s.jpg"
   },
   {
     "id": "06ph_fr_34",
@@ -303,7 +336,8 @@
     "quantity": 11,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_34_latex_gloves_size_m.jpg"
+    "image": "products/06ph_fr/06ph_fr_34_latex_gloves_size_m.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_34_latex_gloves_size_m.jpg"
   },
   {
     "id": "06ph_fr_35",
@@ -312,7 +346,8 @@
     "quantity": 5,
     "unit": "กล่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_35_latex_gloves_size_l.jpg"
+    "image": "products/06ph_fr/06ph_fr_35_latex_gloves_size_l.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_35_latex_gloves_size_l.jpg"
   },
   {
     "id": "06ph_fr_36",
@@ -321,7 +356,8 @@
     "quantity": 1,
     "unit": "เครื่อง",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_36_blood_glucose_monitor.jpg"
+    "image": "products/06ph_fr/06ph_fr_36_blood_glucose_monitor.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_36_blood_glucose_monitor.jpg"
   },
   {
     "id": "06ph_fr_37",
@@ -330,7 +366,8 @@
     "quantity": 50,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_37_gauze_pads_4_inches.jpg"
+    "image": "products/06ph_fr/06ph_fr_37_gauze_pads_4_inches.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_37_gauze_pads_4_inches.jpg"
   },
   {
     "id": "06ph_fr_38",
@@ -339,7 +376,8 @@
     "quantity": 2,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_38_oxygen_regulator.jpg"
+    "image": "products/06ph_fr/06ph_fr_38_oxygen_regulator.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_38_oxygen_regulator.jpg"
   },
   {
     "id": "06ph_fr_39",
@@ -348,7 +386,8 @@
     "quantity": 5,
     "unit": "ชุด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_39_ppe_suit_size_l.jpg"
+    "image": "products/06ph_fr/06ph_fr_39_ppe_suit_size_l.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_39_ppe_suit_size_l.jpg"
   },
   {
     "id": "06ph_fr_40",
@@ -357,7 +396,8 @@
     "quantity": 22,
     "unit": "ชุด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_40_ppe_suit_size_xl.jpg"
+    "image": "products/06ph_fr/06ph_fr_40_ppe_suit_size_xl.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_40_ppe_suit_size_xl.jpg"
   },
   {
     "id": "06ph_fr_41",
@@ -366,7 +406,8 @@
     "quantity": 3,
     "unit": "ชุด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_41_ppe_suit_size_2xl.jpg"
+    "image": "products/06ph_fr/06ph_fr_41_ppe_suit_size_2xl.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_41_ppe_suit_size_2xl.jpg"
   },
   {
     "id": "06ph_fr_42",
@@ -375,7 +416,8 @@
     "quantity": 10,
     "unit": "ชุด",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_42_ppe_suit_free_size.jpg"
+    "image": "products/06ph_fr/06ph_fr_42_ppe_suit_free_size.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_42_ppe_suit_free_size.jpg"
   },
   {
     "id": "06ph_fr_43",
@@ -384,7 +426,8 @@
     "quantity": 19,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_43_rubber_apron.jpg"
+    "image": "products/06ph_fr/06ph_fr_43_rubber_apron.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_43_rubber_apron.jpg"
   },
   {
     "id": "06ph_fr_44",
@@ -393,7 +436,8 @@
     "quantity": 178,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_44_bouffant_cap.jpg"
+    "image": "products/06ph_fr/06ph_fr_44_bouffant_cap.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_44_bouffant_cap.jpg"
   },
   {
     "id": "06ph_fr_45",
@@ -402,6 +446,7 @@
     "quantity": 1,
     "unit": "ชิ้น",
     "price": 0,
-    "image": "products/06ph_fr/06ph_fr_45_child_ambu_bag.jpg"
+    "image": "products/06ph_fr/06ph_fr_45_child_ambu_bag.jpg",
+    "image_url": "products/06ph_fr/06ph_fr_45_child_ambu_bag.jpg"
   }
 ]

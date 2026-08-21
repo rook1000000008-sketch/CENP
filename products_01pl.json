@@ -6,7 +6,8 @@
     "quantity": 2,
     "unit": "ที่เก็บ",
     "price": 92,
-    "image": "products/01pl/01pl_01_item.png"
+    "image": "products/01palad/01palad_01_a4_paper.png",
+    "image_url": "products/01palad/01palad_01_a4_paper.png"
   },
   {
     "id": "01pl_02",
@@ -15,7 +16,8 @@
     "quantity": 10,
     "unit": "ที่เก็บ",
     "price": 52,
-    "image": "products/01pl/01pl_02_item.png"
+    "image": "products/01palad/01palad_02_sugar_packets_do_not_expand_on_the_sides.png",
+    "image_url": "products/01palad/01palad_02_sugar_packets_do_not_expand_on_the_sides.png"
   },
   {
     "id": "01pl_03",
@@ -24,7 +26,8 @@
     "quantity": 28,
     "unit": "ที่เก็บ",
     "price": 26,
-    "image": "products/01pl/01pl_03_item.png"
+    "image": "products/01palad/01palad_03_sugar_envelope_with_side_expansion.png",
+    "image_url": "products/01palad/01palad_03_sugar_envelope_with_side_expansion.png"
   },
   {
     "id": "01pl_04",
@@ -33,7 +36,8 @@
     "quantity": 12,
     "unit": "ที่เก็บ",
     "price": 67,
-    "image": "products/01pl/01pl_04_item.png"
+    "image": "products/01palad/01palad_04_colored_card_paper.png",
+    "image_url": "products/01palad/01palad_04_colored_card_paper.png"
   },
   {
     "id": "01pl_05",
@@ -42,7 +46,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_05_item.png"
+    "image": "products/01palad/01palad_05_bank_paper.png",
+    "image_url": "products/01palad/01palad_05_bank_paper.png"
   },
   {
     "id": "01pl_06",
@@ -51,7 +56,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_06_item.png"
+    "image": "products/01palad/01palad_06_white_card_paper.png",
+    "image_url": "products/01palad/01palad_06_white_card_paper.png"
   },
   {
     "id": "01pl_07",
@@ -60,7 +66,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_07_item.png"
+    "image": "products/01palad/01palad_07_blue_cover_book.png",
+    "image_url": "products/01palad/01palad_07_blue_cover_book.png"
   },
   {
     "id": "01pl_08",
@@ -69,7 +76,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_08_item.png"
+    "image": "products/01palad/01palad_08_office_time_book.png",
+    "image_url": "products/01palad/01palad_08_office_time_book.png"
   },
   {
     "id": "01pl_09",
@@ -78,7 +86,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_09_item.png"
+    "image": "products/01palad/01palad_09_3_inch_file.png",
+    "image_url": "products/01palad/01palad_09_3_inch_file.png"
   },
   {
     "id": "01pl_10",
@@ -87,7 +96,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_10_item.png"
+    "image": "products/01palad/01palad_10_wine_board_pen.png",
+    "image_url": "products/01palad/01palad_10_wine_board_pen.png"
   },
   {
     "id": "01pl_11",
@@ -96,7 +106,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_11_item.png"
+    "image": "products/01palad/01palad_11_document_clipboard.png",
+    "image_url": "products/01palad/01palad_11_document_clipboard.png"
   },
   {
     "id": "01pl_12",
@@ -105,7 +116,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_12_item.png"
+    "image": "products/01palad/01palad_12_correction_tape.jpg",
+    "image_url": "products/01palad/01palad_12_correction_tape.jpg"
   },
   {
     "id": "01pl_13",
@@ -114,7 +126,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_13_item.png"
+    "image": "products/01palad/01palad_13_photo_paper.png",
+    "image_url": "products/01palad/01palad_13_photo_paper.png"
   },
   {
     "id": "01pl_14",
@@ -123,7 +136,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_14_item.png"
+    "image": "products/01palad/01palad_14_paper_puller.jpg",
+    "image_url": "products/01palad/01palad_14_paper_puller.jpg"
   },
   {
     "id": "01pl_15",
@@ -132,7 +146,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_15_item.png"
+    "image": "products/01palad/01palad_15_ballpoint_pen.png",
+    "image_url": "products/01palad/01palad_15_ballpoint_pen.png"
   },
   {
     "id": "01pl_16",
@@ -141,7 +156,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_16_item.png"
+    "image": "products/01palad/01palad_16_clear_tape_size_inch.png",
+    "image_url": "products/01palad/01palad_16_clear_tape_size_inch.png"
   },
   {
     "id": "01pl_17",
@@ -150,7 +166,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_17_item.png"
+    "image": "products/01palad/01palad_17_white_envelope.jpg",
+    "image_url": "products/01palad/01palad_17_white_envelope.jpg"
   },
   {
     "id": "01pl_18",
@@ -159,7 +176,8 @@
     "quantity": 0,
     "unit": "ที่เก็บ",
     "price": 370,
-    "image": "products/01pl/01pl_18_item.png"
+    "image": "products/01palad/01palad_18_black_clip_number_111.png",
+    "image_url": "products/01palad/01palad_18_black_clip_number_111.png"
   },
   {
     "id": "01pl_19",
@@ -168,7 +186,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_19_item.png"
+    "image": "products/01palad/01palad_19_paper_wire_size_00.png",
+    "image_url": "products/01palad/01palad_19_paper_wire_size_00.png"
   },
   {
     "id": "01pl_20",
@@ -177,7 +196,8 @@
     "quantity": 2,
     "unit": "ที่เก็บ",
     "price": 850,
-    "image": "products/01pl/01pl_20_item.png"
+    "image": "products/01palad/01palad_20_paper_wire_no._1.png",
+    "image_url": "products/01palad/01palad_20_paper_wire_no._1.png"
   },
   {
     "id": "01pl_21",
@@ -186,7 +206,8 @@
     "quantity": 0,
     "unit": "ที่เก็บ",
     "price": 1000,
-    "image": "products/01pl/01pl_21_item.png"
+    "image": "products/01palad/01palad_21_black_clip_number_111.png",
+    "image_url": "products/01palad/01palad_21_black_clip_number_111.png"
   },
   {
     "id": "01pl_22",
@@ -195,7 +216,8 @@
     "quantity": 13,
     "unit": "ที่เก็บ",
     "price": 14,
-    "image": "products/01pl/01pl_22_item.png"
+    "image": "products/01palad/01palad_22_staple_number_10.png",
+    "image_url": "products/01palad/01palad_22_staple_number_10.png"
   },
   {
     "id": "01pl_23",
@@ -204,7 +226,8 @@
     "quantity": 7,
     "unit": "ที่เก็บ",
     "price": 14,
-    "image": "products/01pl/01pl_23_item.png"
+    "image": "products/01palad/01palad_23_canon_b_ink.jpg",
+    "image_url": "products/01palad/01palad_23_canon_b_ink.jpg"
   },
   {
     "id": "01pl_24",
@@ -213,7 +236,8 @@
     "quantity": 12,
     "unit": "ที่เก็บ",
     "price": 14,
-    "image": "products/01pl/01pl_24_item.png"
+    "image": "products/01palad/01palad_24_canon_c_ink.jpg",
+    "image_url": "products/01palad/01palad_24_canon_c_ink.jpg"
   },
   {
     "id": "01pl_25",
@@ -222,7 +246,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_25_item.png"
+    "image": "products/01palad/01palad_25_canon_y_ink.jpg",
+    "image_url": "products/01palad/01palad_25_canon_y_ink.jpg"
   },
   {
     "id": "01pl_26",
@@ -231,7 +256,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_26_item.png"
+    "image": "products/01palad/01palad_26_canon_m_ink.jpg",
+    "image_url": "products/01palad/01palad_26_canon_m_ink.jpg"
   },
   {
     "id": "01pl_27",
@@ -240,7 +266,8 @@
     "quantity": 0,
     "unit": "",
     "price": 0,
-    "image": "products/01pl/01pl_27_item.png"
+    "image": "products/01palad/01palad_27_epson_c_ink.jpg",
+    "image_url": "products/01palad/01palad_27_epson_c_ink.jpg"
   },
   {
     "id": "01pl_28",
@@ -249,7 +276,8 @@
     "quantity": 9,
     "unit": "ที่เก็บ",
     "price": 14,
-    "image": "products/01pl/01pl_28_item.png"
+    "image": "products/01palad/01palad_28_epson_y_ink.jpg",
+    "image_url": "products/01palad/01palad_28_epson_y_ink.jpg"
   },
   {
     "id": "01pl_29",
@@ -258,7 +286,8 @@
     "quantity": 32,
     "unit": "ที่เก็บ",
     "price": 4,
-    "image": "products/01pl/01pl_29_item.png"
+    "image": "products/01palad/01palad_29_epson_m_ink.jpg",
+    "image_url": "products/01palad/01palad_29_epson_m_ink.jpg"
   },
   {
     "id": "01pl_30",

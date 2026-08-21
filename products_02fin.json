@@ -5,10 +5,11 @@
     "division": "กองคลัง",
     "quantity": 28,
     "unit": "กล่องเล็ก",
-    "price": 14.0,
-    "image": "products/02fin/02fin_01_paper_clips_no_01.png",
+    "price": 14,
+    "image": "products/02fin/02fin_koykoy_01.jpg",
     "image_source": "products/03eng/03eng_08_paper_clips_no_01.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_01.jpg"
   },
   {
     "id": "02fin_02",
@@ -16,10 +17,11 @@
     "division": "กองคลัง",
     "quantity": 10,
     "unit": "กล่องเล็ก",
-    "price": 14.0,
-    "image": "products/02fin/02fin_02_paper_clips_no_00.png",
+    "price": 14,
+    "image": "products/02fin/02fin_koykoy_02.jpg",
     "image_source": "products/03eng/03eng_07_paper_clips_no_00.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_02.jpg"
   },
   {
     "id": "02fin_03",
@@ -27,10 +29,11 @@
     "division": "กองคลัง",
     "quantity": 10,
     "unit": "อัน",
-    "price": 85.0,
-    "image": "products/02fin/02fin_03_correction_tape.png",
+    "price": 85,
+    "image": "products/02fin/02fin_koykoy_03.jpg",
     "image_source": "products/03eng/03eng_05_correction_tape.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_03.jpg"
   },
   {
     "id": "02fin_04",
@@ -38,10 +41,11 @@
     "division": "กองคลัง",
     "quantity": 6,
     "unit": "ม้วน",
-    "price": 40.0,
-    "image": "products/02fin/02fin_koykoy_01.jpg",
+    "price": 40,
+    "image": "products/02fin/02fin_koykoy_04.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_1.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_1.jpg",
+    "image_url": "products/02fin/02fin_koykoy_04.jpg"
   },
   {
     "id": "02fin_05",
@@ -49,10 +53,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "ด้าม",
-    "price": 15.0,
-    "image": "products/02fin/02fin_05_permanent_marker.png",
+    "price": 15,
+    "image": "products/02fin/02fin_koykoy_05.jpg",
     "image_source": "products/01pl/01pl_22_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_05.jpg"
   },
   {
     "id": "02fin_06",
@@ -60,10 +65,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "ด้าม",
-    "price": 10.0,
-    "image": "products/02fin/02fin_06_ballpoint_pen.png",
+    "price": 10,
+    "image": "products/02fin/02fin_koykoy_06.jpg",
     "image_source": "products/01pl/01pl_30_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_06.jpg"
   },
   {
     "id": "02fin_07",
@@ -71,10 +77,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "ด้าม",
-    "price": 45.0,
-    "image": "products/02fin/02fin_koykoy_02.jpg",
+    "price": 45,
+    "image": "products/02fin/02fin_koykoy_07.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_10.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_10.jpg",
+    "image_url": "products/02fin/02fin_koykoy_07.jpg"
   },
   {
     "id": "02fin_08",
@@ -82,10 +89,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "ก้อน",
-    "price": 6.0,
-    "image": "products/02fin/02fin_08_eraser.png",
+    "price": 6,
+    "image": "products/02fin/02fin_koykoy_08.jpg",
     "image_source": "products/01pl/01pl_33_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_08.jpg"
   },
   {
     "id": "02fin_09",
@@ -93,10 +101,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "ห่อ",
-    "price": 30.0,
-    "image": "products/02fin/02fin_koykoy_03.jpg",
+    "price": 30,
+    "image": "products/02fin/02fin_koykoy_09.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_11.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_11.jpg",
+    "image_url": "products/02fin/02fin_koykoy_09.jpg"
   },
   {
     "id": "02fin_10",
@@ -104,10 +113,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "ม้วน",
-    "price": 30.0,
-    "image": "products/02fin/02fin_koykoy_04.jpg",
+    "price": 30,
+    "image": "products/02fin/02fin_koykoy_10.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_12.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_12.jpg",
+    "image_url": "products/02fin/02fin_koykoy_10.jpg"
   },
   {
     "id": "02fin_11",
@@ -115,10 +125,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "กล่อง",
-    "price": 80.0,
-    "image": "products/02fin/02fin_koykoy_05.jpg",
+    "price": 80,
+    "image": "products/02fin/02fin_koykoy_11.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_2.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_2.jpg",
+    "image_url": "products/02fin/02fin_koykoy_11.jpg"
   },
   {
     "id": "02fin_12",
@@ -126,10 +137,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 35.0,
-    "image": "products/02fin/02fin_koykoy_06.jpg",
+    "price": 35,
+    "image": "products/02fin/02fin_koykoy_12.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_3.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_3.jpg",
+    "image_url": "products/02fin/02fin_koykoy_12.jpg"
   },
   {
     "id": "02fin_13",
@@ -137,10 +149,11 @@
     "division": "กองคลัง",
     "quantity": 3,
     "unit": "อัน",
-    "price": 40.0,
-    "image": "products/02fin/02fin_koykoy_07.jpg",
+    "price": 40,
+    "image": "products/02fin/02fin_koykoy_13.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_4.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_4.jpg",
+    "image_url": "products/02fin/02fin_koykoy_13.jpg"
   },
   {
     "id": "02fin_14",
@@ -148,10 +161,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 175.0,
-    "image": "products/02fin/02fin_koykoy_08.jpg",
+    "price": 175,
+    "image": "products/02fin/02fin_koykoy_14.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_5.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_5.jpg",
+    "image_url": "products/02fin/02fin_koykoy_14.jpg"
   },
   {
     "id": "02fin_15",
@@ -159,10 +173,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "ด้าม",
-    "price": 45.0,
-    "image": "products/02fin/02fin_15_highlighter_pen.png",
+    "price": 45,
+    "image": "products/02fin/02fin_koykoy_15.jpg",
     "image_source": "products/01pl/01pl_31_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_15.jpg"
   },
   {
     "id": "02fin_16",
@@ -170,10 +185,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "ม้วน",
-    "price": 39.0,
-    "image": "products/02fin/02fin_koykoy_09.jpg",
+    "price": 39,
+    "image": "products/02fin/02fin_koykoy_16.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_6.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_6.jpg",
+    "image_url": "products/02fin/02fin_koykoy_16.jpg"
   },
   {
     "id": "02fin_17",
@@ -181,10 +197,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่องใหญ่",
-    "price": 285.0,
-    "image": "products/02fin/02fin_koykoy_10.jpg",
+    "price": 285,
+    "image": "products/02fin/02fin_koykoy_17.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_7.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_7.jpg",
+    "image_url": "products/02fin/02fin_koykoy_17.jpg"
   },
   {
     "id": "02fin_18",
@@ -192,10 +209,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่องใหญ่",
-    "price": 675.0,
-    "image": "products/02fin/02fin_koykoy_11.jpg",
+    "price": 675,
+    "image": "products/02fin/02fin_koykoy_18.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_8.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_8.jpg",
+    "image_url": "products/02fin/02fin_koykoy_18.jpg"
   },
   {
     "id": "02fin_19",
@@ -203,10 +221,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "ด้าม",
-    "price": 75.0,
-    "image": "products/02fin/02fin_koykoy_12.jpg",
+    "price": 75,
+    "image": "products/02fin/02fin_koykoy_19.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_9.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุคอมพิวเตอร์ กองคลัง_260821_9.jpg",
+    "image_url": "products/02fin/02fin_koykoy_19.jpg"
   },
   {
     "id": "02fin_20",
@@ -214,10 +233,11 @@
     "division": "กองคลัง",
     "quantity": 3,
     "unit": "อัน",
-    "price": 15.0,
-    "image": "products/02fin/02fin_koykoy_13.jpg",
+    "price": 15,
+    "image": "products/02fin/02fin_koykoy_20.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_1.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_1.jpg",
+    "image_url": "products/02fin/02fin_koykoy_20.jpg"
   },
   {
     "id": "02fin_21",
@@ -225,10 +245,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "อัน",
-    "price": 15.0,
-    "image": "products/02fin/02fin_koykoy_14.jpg",
+    "price": 15,
+    "image": "products/02fin/02fin_koykoy_21.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_10.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_10.jpg",
+    "image_url": "products/02fin/02fin_koykoy_21.jpg"
   },
   {
     "id": "02fin_22",
@@ -236,10 +257,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "อัน",
-    "price": 75.0,
-    "image": "products/02fin/02fin_koykoy_15.jpg",
+    "price": 75,
+    "image": "products/02fin/02fin_koykoy_22.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_11.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_11.jpg",
+    "image_url": "products/02fin/02fin_koykoy_22.jpg"
   },
   {
     "id": "02fin_23",
@@ -247,10 +269,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "รีม",
-    "price": 150.0,
-    "image": "products/02fin/02fin_koykoy_16.jpg",
+    "price": 150,
+    "image": "products/02fin/02fin_koykoy_23.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_12.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_12.jpg",
+    "image_url": "products/02fin/02fin_koykoy_23.jpg"
   },
   {
     "id": "02fin_24",
@@ -258,10 +281,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "รีม",
-    "price": 145.0,
-    "image": "products/02fin/02fin_koykoy_17.jpg",
+    "price": 145,
+    "image": "products/02fin/02fin_koykoy_24.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_13.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_13.jpg",
+    "image_url": "products/02fin/02fin_koykoy_24.jpg"
   },
   {
     "id": "02fin_25",
@@ -269,10 +293,11 @@
     "division": "กองคลัง",
     "quantity": 3,
     "unit": "รีม",
-    "price": 240.0,
-    "image": "products/02fin/02fin_koykoy_18.jpg",
+    "price": 240,
+    "image": "products/02fin/02fin_koykoy_25.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_14.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_14.jpg",
+    "image_url": "products/02fin/02fin_koykoy_25.jpg"
   },
   {
     "id": "02fin_26",
@@ -280,10 +305,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่องใหญ่",
-    "price": 520.0,
-    "image": "products/02fin/02fin_koykoy_19.jpg",
+    "price": 520,
+    "image": "products/02fin/02fin_koykoy_26.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_15.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_15.jpg",
+    "image_url": "products/02fin/02fin_koykoy_26.jpg"
   },
   {
     "id": "02fin_27",
@@ -291,10 +317,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "ห่อ",
-    "price": 290.0,
-    "image": "products/02fin/02fin_koykoy_20.jpg",
+    "price": 290,
+    "image": "products/02fin/02fin_koykoy_27.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_16.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_16.jpg",
+    "image_url": "products/02fin/02fin_koykoy_27.jpg"
   },
   {
     "id": "02fin_28",
@@ -302,10 +329,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "ห่อ",
-    "price": 180.0,
-    "image": "products/02fin/02fin_koykoy_21.jpg",
+    "price": 180,
+    "image": "products/02fin/02fin_koykoy_28.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_17.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_17.jpg",
+    "image_url": "products/02fin/02fin_koykoy_28.jpg"
   },
   {
     "id": "02fin_29",
@@ -313,10 +341,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "แผ่น",
-    "price": 15.0,
-    "image": "products/02fin/02fin_koykoy_22.jpg",
+    "price": 15,
+    "image": "products/02fin/02fin_koykoy_29.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_18.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_18.jpg",
+    "image_url": "products/02fin/02fin_koykoy_29.jpg"
   },
   {
     "id": "02fin_30",
@@ -324,10 +353,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "แพ๊ค",
-    "price": 65.0,
-    "image": "products/02fin/02fin_koykoy_23.jpg",
+    "price": 65,
+    "image": "products/02fin/02fin_koykoy_30.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_19.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_19.jpg",
+    "image_url": "products/02fin/02fin_koykoy_30.jpg"
   },
   {
     "id": "02fin_31",
@@ -335,10 +365,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "เล่ม",
-    "price": 80.0,
-    "image": "products/02fin/02fin_koykoy_24.jpg",
+    "price": 80,
+    "image": "products/02fin/02fin_koykoy_31.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_2.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_2.jpg",
+    "image_url": "products/02fin/02fin_koykoy_31.jpg"
   },
   {
     "id": "02fin_32",
@@ -346,10 +377,11 @@
     "division": "กองคลัง",
     "quantity": 3,
     "unit": "เล่ม",
-    "price": 100.0,
-    "image": "products/02fin/02fin_koykoy_25.jpg",
+    "price": 100,
+    "image": "products/02fin/02fin_koykoy_32.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_20.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_20.jpg",
+    "image_url": "products/02fin/02fin_koykoy_32.jpg"
   },
   {
     "id": "02fin_33",
@@ -358,9 +390,10 @@
     "quantity": 75,
     "unit": "ฉบับ",
     "price": 3.5,
-    "image": "products/02fin/02fin_koykoy_26.jpg",
+    "image": "products/02fin/02fin_koykoy_33.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_21.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_21.jpg",
+    "image_url": "products/02fin/02fin_koykoy_33.jpg"
   },
   {
     "id": "02fin_34",
@@ -368,10 +401,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 250.0,
-    "image": "products/02fin/02fin_34_ballpoint_pen.png",
+    "price": 250,
+    "image": "products/02fin/02fin_koykoy_34.jpg",
     "image_source": "products/01pl/01pl_29_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_34.jpg"
   },
   {
     "id": "02fin_35",
@@ -379,10 +413,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "ม้วน",
-    "price": 20.0,
-    "image": "products/02fin/02fin_koykoy_27.jpg",
+    "price": 20,
+    "image": "products/02fin/02fin_koykoy_35.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_22.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_22.jpg",
+    "image_url": "products/02fin/02fin_koykoy_35.jpg"
   },
   {
     "id": "02fin_36",
@@ -390,10 +425,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 65.0,
-    "image": "products/02fin/02fin_koykoy_28.jpg",
+    "price": 65,
+    "image": "products/02fin/02fin_koykoy_36.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_23.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_23.jpg",
+    "image_url": "products/02fin/02fin_koykoy_36.jpg"
   },
   {
     "id": "02fin_37",
@@ -401,10 +437,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "เครื่อง",
-    "price": 750.0,
-    "image": "products/02fin/02fin_37_calculator.png",
+    "price": 750,
+    "image": "products/02fin/02fin_koykoy_37.jpg",
     "image_source": "products/01pl/01pl_100_item.png",
-    "is_placeholder": false
+    "is_placeholder": false,
+    "image_url": "products/02fin/02fin_koykoy_37.jpg"
   },
   {
     "id": "02fin_38",
@@ -412,10 +449,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "ด้าม",
-    "price": 62.0,
-    "image": "products/02fin/02fin_koykoy_29.jpg",
+    "price": 62,
+    "image": "products/02fin/02fin_koykoy_38.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_24.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_24.jpg",
+    "image_url": "products/02fin/02fin_koykoy_38.jpg"
   },
   {
     "id": "02fin_39",
@@ -423,10 +461,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 90.0,
-    "image": "products/02fin/02fin_koykoy_30.jpg",
+    "price": 90,
+    "image": "products/02fin/02fin_koykoy_39.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_25.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_25.jpg",
+    "image_url": "products/02fin/02fin_koykoy_39.jpg"
   },
   {
     "id": "02fin_40",
@@ -434,10 +473,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 450.0,
-    "image": "products/02fin/02fin_koykoy_31.jpg",
+    "price": 450,
+    "image": "products/02fin/02fin_koykoy_40.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_26.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_26.jpg",
+    "image_url": "products/02fin/02fin_koykoy_40.jpg"
   },
   {
     "id": "02fin_41",
@@ -445,10 +485,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "รีม",
-    "price": 285.0,
-    "image": "products/02fin/02fin_koykoy_32.jpg",
+    "price": 285,
+    "image": "products/02fin/02fin_koykoy_41.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_27.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_27.jpg",
+    "image_url": "products/02fin/02fin_koykoy_41.jpg"
   },
   {
     "id": "02fin_42",
@@ -456,10 +497,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "แพ๊ค",
-    "price": 132.0,
-    "image": "products/02fin/02fin_koykoy_33.jpg",
+    "price": 132,
+    "image": "products/02fin/02fin_koykoy_42.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_28.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_28.jpg",
+    "image_url": "products/02fin/02fin_koykoy_42.jpg"
   },
   {
     "id": "02fin_43",
@@ -467,10 +509,11 @@
     "division": "กองคลัง",
     "quantity": 4,
     "unit": "อัน",
-    "price": 20.0,
-    "image": "products/02fin/02fin_koykoy_34.jpg",
+    "price": 20,
+    "image": "products/02fin/02fin_koykoy_43.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_29.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_29.jpg",
+    "image_url": "products/02fin/02fin_koykoy_43.jpg"
   },
   {
     "id": "02fin_44",
@@ -478,10 +521,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "รีม",
-    "price": 60.0,
-    "image": "products/02fin/02fin_koykoy_35.jpg",
+    "price": 60,
+    "image": "products/02fin/02fin_koykoy_44.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_3.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_3.jpg",
+    "image_url": "products/02fin/02fin_koykoy_44.jpg"
   },
   {
     "id": "02fin_45",
@@ -489,10 +533,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "อัน",
-    "price": 250.0,
-    "image": "products/02fin/02fin_koykoy_36.jpg",
+    "price": 250,
+    "image": "products/02fin/02fin_koykoy_45.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_30.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_30.jpg",
+    "image_url": "products/02fin/02fin_koykoy_45.jpg"
   },
   {
     "id": "02fin_46",
@@ -500,10 +545,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "อัน",
-    "price": 495.0,
-    "image": "products/02fin/02fin_koykoy_37.jpg",
+    "price": 495,
+    "image": "products/02fin/02fin_koykoy_46.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_31.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_31.jpg",
+    "image_url": "products/02fin/02fin_koykoy_46.jpg"
   },
   {
     "id": "02fin_47",
@@ -511,10 +557,11 @@
     "division": "กองคลัง",
     "quantity": 3,
     "unit": "อัน",
-    "price": 50.0,
-    "image": "products/02fin/02fin_koykoy_38.jpg",
+    "price": 50,
+    "image": "products/02fin/02fin_koykoy_47.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_32.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_32.jpg",
+    "image_url": "products/02fin/02fin_koykoy_47.jpg"
   },
   {
     "id": "02fin_48",
@@ -522,10 +569,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 2250.0,
-    "image": "products/02fin/02fin_koykoy_39.jpg",
+    "price": 2250,
+    "image": "products/02fin/02fin_koykoy_48.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_33.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_33.jpg",
+    "image_url": "products/02fin/02fin_koykoy_48.jpg"
   },
   {
     "id": "02fin_49",
@@ -533,10 +581,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 2900.0,
-    "image": "products/02fin/02fin_koykoy_40.jpg",
+    "price": 2900,
+    "image": "products/02fin/02fin_koykoy_49.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_34.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_34.jpg",
+    "image_url": "products/02fin/02fin_koykoy_49.jpg"
   },
   {
     "id": "02fin_50",
@@ -544,10 +593,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3500.0,
-    "image": "products/02fin/02fin_koykoy_41.jpg",
+    "price": 3500,
+    "image": "products/02fin/02fin_koykoy_50.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_35.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_35.jpg",
+    "image_url": "products/02fin/02fin_koykoy_50.jpg"
   },
   {
     "id": "02fin_51",
@@ -555,10 +605,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 1350.0,
-    "image": "products/02fin/02fin_koykoy_42.jpg",
+    "price": 1350,
+    "image": "products/02fin/02fin_koykoy_51.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_36.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_36.jpg",
+    "image_url": "products/02fin/02fin_koykoy_51.jpg"
   },
   {
     "id": "02fin_52",
@@ -566,10 +617,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "ชุด",
-    "price": 550.0,
-    "image": "products/02fin/02fin_koykoy_43.jpg",
+    "price": 550,
+    "image": "products/02fin/02fin_koykoy_52.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_37.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_37.jpg",
+    "image_url": "products/02fin/02fin_koykoy_52.jpg"
   },
   {
     "id": "02fin_53",
@@ -577,10 +629,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 320.0,
-    "image": "products/02fin/02fin_koykoy_44.jpg",
+    "price": 320,
+    "image": "products/02fin/02fin_koykoy_53.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_38.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_38.jpg",
+    "image_url": "products/02fin/02fin_koykoy_53.jpg"
   },
   {
     "id": "02fin_54",
@@ -588,10 +641,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "ขวด",
-    "price": 310.0,
-    "image": "products/02fin/02fin_koykoy_45.jpg",
+    "price": 310,
+    "image": "products/02fin/02fin_koykoy_54.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_39.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_39.jpg",
+    "image_url": "products/02fin/02fin_koykoy_54.jpg"
   },
   {
     "id": "02fin_55",
@@ -599,10 +653,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3000.0,
-    "image": "products/02fin/02fin_koykoy_46.jpg",
+    "price": 3000,
+    "image": "products/02fin/02fin_koykoy_55.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_4.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_4.jpg",
+    "image_url": "products/02fin/02fin_koykoy_55.jpg"
   },
   {
     "id": "02fin_56",
@@ -610,10 +665,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3730.0,
-    "image": "products/02fin/02fin_koykoy_47.jpg",
+    "price": 3730,
+    "image": "products/02fin/02fin_koykoy_56.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_40.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_40.jpg",
+    "image_url": "products/02fin/02fin_koykoy_56.jpg"
   },
   {
     "id": "02fin_57",
@@ -621,10 +677,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3800.0,
-    "image": "products/02fin/02fin_koykoy_48.jpg",
+    "price": 3800,
+    "image": "products/02fin/02fin_koykoy_57.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_41.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_41.jpg",
+    "image_url": "products/02fin/02fin_koykoy_57.jpg"
   },
   {
     "id": "02fin_58",
@@ -632,10 +689,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3730.0,
-    "image": "products/02fin/02fin_koykoy_49.jpg",
+    "price": 3730,
+    "image": "products/02fin/02fin_koykoy_58.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_42.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_42.jpg",
+    "image_url": "products/02fin/02fin_koykoy_58.jpg"
   },
   {
     "id": "02fin_59",
@@ -643,10 +701,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 4280.0,
+    "price": 4280,
     "image": "products/02fin/02fin_koykoy_50.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_43.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_43.jpg",
+    "image_url": "products/02fin/02fin_koykoy_50.jpg"
   },
   {
     "id": "02fin_60",
@@ -654,10 +713,11 @@
     "division": "กองคลัง",
     "quantity": 25,
     "unit": "กล่อง",
-    "price": 15000.0,
+    "price": 15000,
     "image": "products/02fin/02fin_koykoy_51.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_44.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_44.jpg",
+    "image_url": "products/02fin/02fin_koykoy_51.jpg"
   },
   {
     "id": "02fin_61",
@@ -665,10 +725,11 @@
     "division": "กองคลัง",
     "quantity": 5,
     "unit": "รีม",
-    "price": 450.0,
+    "price": 450,
     "image": "products/02fin/02fin_koykoy_52.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_45.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_45.jpg",
+    "image_url": "products/02fin/02fin_koykoy_52.jpg"
   },
   {
     "id": "02fin_62",
@@ -676,10 +737,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "โหล",
-    "price": 2280.0,
+    "price": 2280,
     "image": "products/02fin/02fin_koykoy_53.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_46.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_46.jpg",
+    "image_url": "products/02fin/02fin_koykoy_53.jpg"
   },
   {
     "id": "02fin_63",
@@ -687,10 +749,11 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "เล่ม",
-    "price": 275.0,
+    "price": 275,
     "image": "products/02fin/02fin_koykoy_54.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_47.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_47.jpg",
+    "image_url": "products/02fin/02fin_koykoy_54.jpg"
   },
   {
     "id": "02fin_64",
@@ -698,10 +761,11 @@
     "division": "กองคลัง",
     "quantity": 6,
     "unit": "อัน",
-    "price": 402.0,
+    "price": 402,
     "image": "products/02fin/02fin_koykoy_55.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_5.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_5.jpg",
+    "image_url": "products/02fin/02fin_koykoy_55.jpg"
   },
   {
     "id": "02fin_65",
@@ -709,7 +773,7 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "แพ๊ค",
-    "price": 246.0,
+    "price": 246,
     "image": "products/02fin/02fin_65_battery_aa.png",
     "image_source": "products/03eng/03eng_48_aa_battery.png",
     "is_placeholder": false
@@ -720,7 +784,7 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "แพ๊ค",
-    "price": 246.0,
+    "price": 246,
     "image": "products/02fin/02fin_66_battery_aaa.png",
     "image_source": "products/03eng/03eng_49_aaa_battery.png",
     "is_placeholder": false
@@ -731,10 +795,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "โหล",
-    "price": 320.0,
+    "price": 320,
     "image": "products/02fin/02fin_koykoy_56.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_6.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_6.jpg",
+    "image_url": "products/02fin/02fin_koykoy_56.jpg"
   },
   {
     "id": "02fin_68",
@@ -742,10 +807,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 70.0,
+    "price": 70,
     "image": "products/02fin/02fin_koykoy_57.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_7.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_7.jpg",
+    "image_url": "products/02fin/02fin_koykoy_57.jpg"
   },
   {
     "id": "02fin_69",
@@ -753,10 +819,11 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 50.0,
+    "price": 50,
     "image": "products/02fin/02fin_koykoy_58.jpg",
     "is_placeholder": false,
-    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_8.jpg"
+    "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_8.jpg",
+    "image_url": "products/02fin/02fin_koykoy_58.jpg"
   },
   {
     "id": "02fin_70",
@@ -764,7 +831,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "โหล",
-    "price": 630.0,
+    "price": 630,
     "image": "products/02fin/02fin_koykoy_59.jpg",
     "is_placeholder": false,
     "image_source": "products/koykoy/LINE_ALBUM_วัสดุสำนักงาน กองคลัง_260821_9.jpg"
@@ -775,7 +842,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "ชุด",
-    "price": 720.0,
+    "price": 720,
     "image": "products/02fin/02fin_71_cabinet_5_tcb_5_placeholder.png",
     "is_placeholder": true
   },
@@ -785,7 +852,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 2250.0,
+    "price": 2250,
     "image": "products/02fin/02fin_72_cannon_325_placeholder.png",
     "is_placeholder": true
   },
@@ -795,7 +862,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 2900.0,
+    "price": 2900,
     "image": "products/02fin/02fin_73_brother_tn_2480_placeholder.png",
     "is_placeholder": true
   },
@@ -805,7 +872,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3500.0,
+    "price": 3500,
     "image": "products/02fin/02fin_74_hp_30a_placeholder.png",
     "is_placeholder": true
   },
@@ -815,7 +882,7 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "กล่อง",
-    "price": 1350.0,
+    "price": 1350,
     "image": "products/02fin/02fin_75_brother_tn_2360_placeholder.png",
     "is_placeholder": true
   },
@@ -825,7 +892,7 @@
     "division": "กองคลัง",
     "quantity": 2,
     "unit": "อัน",
-    "price": 550.0,
+    "price": 550,
     "image": "products/02fin/02fin_76_mouse_usb_placeholder.png",
     "is_placeholder": true
   },
@@ -835,7 +902,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3000.0,
+    "price": 3000,
     "image": "products/02fin/02fin_77_brother_tn_267_placeholder.png",
     "is_placeholder": true
   },
@@ -845,7 +912,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3730.0,
+    "price": 3730,
     "image": "products/02fin/02fin_78_brother_tn_267_placeholder.png",
     "is_placeholder": true
   },
@@ -855,7 +922,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3800.0,
+    "price": 3800,
     "image": "products/02fin/02fin_79_brother_tn_267_placeholder.png",
     "is_placeholder": true
   },
@@ -865,7 +932,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 3730.0,
+    "price": 3730,
     "image": "products/02fin/02fin_80_brother_tn_267_l_placeholder.png",
     "is_placeholder": true
   },
@@ -875,7 +942,7 @@
     "division": "กองคลัง",
     "quantity": 1,
     "unit": "กล่อง",
-    "price": 4280.0,
+    "price": 4280,
     "image": "products/02fin/02fin_81_hp_12a_placeholder.png",
     "is_placeholder": true
   }
