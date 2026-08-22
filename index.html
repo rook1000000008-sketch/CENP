@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-MART v5.2 - ระบบเบิกจ่ายพัสดุอัตโนมัติ อบต.ข่วงเปา</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -412,44 +416,56 @@
         let enteredPin = "";
         let activeCategory = "all";
 
-        // 🟢 3. ฟังก์ชันแปลง Path รูปภาพ (บังคับทุกภาพให้เป็น .jpg ตรงกับไฟล์จริง)
-        function fixImgUrl(url) {
-            if (!url) return 'https://via.placeholder.com/150?text=No+Image';
-            if (url.startsWith('http://') || url.startsWith('https://')) return url;
+        // 🟢 3. Smart Image Mapping (แก้ปัญหาชื่อพัสดุไม่ตรงกับรูปภาพใน Firebase โดยอัตโนมัติ)
+        function fixImgUrlObj(item) {
+            if (!item) return 'https://via.placeholder.com/150?text=No+Image';
             
-            // ลบเครื่องหมาย / หรือ ./ ที่ซ้ำซ้อนด้านหน้า
-            let cleanPath = url.replace(/^(\.\/|\/)+/, '');
-            
-            if (!cleanPath.startsWith('products/')) {
-                cleanPath = 'products/' + cleanPath;
+            const name = (item.name || '').toLowerCase();
+            const id = (item.id || '').toLowerCase();
+            const rawUrl = item.image || item.image_url || '';
+
+            // 🎯 ระบบตรวจสอบชื่อพัสดุและจับคู่ภาพจริงบน GitHub
+            if (name.includes('ลิควิดแบบน้ำ') || name.includes('ลิควิด') && name.includes('น้ำ')) {
+                return './products/01palad/01palad_12_correction_tape.jpg';
+            }
+            if (name.includes('ลิควิดแบบเทป') || name.includes('เทปลบคำผิด')) {
+                return './products/01palad/01palad_12_correction_tape.jpg';
+            }
+            if (name.includes('กระดาษ') && (name.includes('a4') || name.includes('เอ4'))) {
+                return './products/01palad/01palad_01_a4_paper.jpg';
+            }
+            if (name.includes('ซอง') && name.includes('น้ำตาล')) {
+                return './products/01palad/01palad_03_sugar_envelope_with_side_expansion.jpg';
             }
 
-            // แก้ไข mapping กรณีชื่อโฟลเดอร์พิมพ์ผิด 01pl ➔ 01palad
-            cleanPath = cleanPath.replace('products/01pl/', 'products/01palad/');
-
-            // 🎯 บังคับเปลี่ยนนามสกุลเป็น .jpg ทุกไฟล์
-            cleanPath = cleanPath.replace(/\.(png|jpeg|wdp|jxr|webp|jpg)$/i, '.jpg');
-            if (!cleanPath.endsWith('.jpg')) {
-                cleanPath += '.jpg';
+            // หากเป็นรายการทั่วไป ให้แปลงสกุลภาพเป็น .jpg
+            if (rawUrl) {
+                let cleanPath = rawUrl.replace(/^(\.\/|\/)+/, '');
+                if (!cleanPath.startsWith('products/')) cleanPath = 'products/' + cleanPath;
+                cleanPath = cleanPath.replace('products/01pl/', 'products/01palad/');
+                cleanPath = cleanPath.replace(/\.(png|jpeg|wdp|jxr|webp|jpg)$/i, '.jpg');
+                if (!cleanPath.endsWith('.jpg')) cleanPath += '.jpg';
+                return './' + cleanPath;
             }
-            
-            return './' + cleanPath;
+
+            return 'https://via.placeholder.com/150?text=No+Image';
         }
 
-        // ฟังก์ชันเมื่อโหลดรูปไม่สำเร็จ
         function handleImgError(img) {
             img.onerror = null;
             img.src = 'https://via.placeholder.com/150?text=No+Image';
         }
 
-        // 🟢 4. ดึงข้อมูลพัสดุ Realtime จาก Firebase
+        // 🟢 4. ดึงข้อมูลพัสดุจาก Firebase (ครั้งเดียวเพื่อป้องกันวงล้อหมุนค้าง)
         function syncDataFromFirebase() {
-            db.ref('materials').on('value', (snapshot) => {
+            db.ref('materials').once('value').then((snapshot) => {
                 const data = snapshot.val();
                 if (data) {
                     allMaterials = Array.isArray(data) ? data.filter(item => item !== null) : Object.values(data);
                     renderProducts();
                 }
+            }).catch(err => {
+                console.error("Firebase Fetch Error:", err);
             });
         }
 
@@ -567,14 +583,13 @@
                 const stockVal = Number(p.quantity ?? p.stock_remaining ?? 0);
                 const priceVal = Number(p.price ?? p.price_unit_coin ?? 0);
                 const hasStock = stockVal > 0;
-                const imgPath = p.image || p.image_url || '';
 
                 const card = document.createElement('div');
                 card.className = "glass-card rounded-2xl p-4 flex flex-col justify-between";
                 card.innerHTML = `
                     <div>
                         <div class="w-full h-36 bg-slate-50 rounded-xl mb-3 flex items-center justify-center p-2 border border-slate-100 overflow-hidden shadow-inner">
-                            <img src="${fixImgUrl(imgPath)}" loading="lazy" onerror="handleImgError(this)" class="object-contain h-full w-full rounded-lg">
+                            <img src="${fixImgUrlObj(p)}" loading="lazy" onerror="handleImgError(this)" class="object-contain h-full w-full rounded-lg">
                         </div>
                         <span class="text-[9px] bg-emerald-100 text-emerald-900 font-black px-2.5 py-0.5 rounded-md inline-block mb-1 shadow-sm">${p.division || 'ไม่ระบุ'}</span>
                         <h3 class="font-extrabold text-slate-800 text-xs h-8 line-clamp-2">${p.name}</h3>
@@ -685,13 +700,12 @@
                 const priceVal = Number(item.price ?? item.price_unit_coin ?? 0);
                 const subtotal = priceVal * qty; 
                 total += subtotal;
-                const imgPath = item.image || item.image_url || '';
 
                 const card = document.createElement('div');
                 card.className = "flex items-center gap-3 p-3 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm";
                 card.innerHTML = `
                     <div class="w-14 h-14 bg-white border rounded-xl overflow-hidden flex-shrink-0 p-1">
-                        <img src="${fixImgUrl(imgPath)}" onerror="handleImgError(this)" class="w-full h-full object-contain rounded-lg">
+                        <img src="${fixImgUrlObj(item)}" onerror="handleImgError(this)" class="w-full h-full object-contain rounded-lg">
                     </div>
                     <div class="flex-1">
                         <h4 class="font-extrabold text-slate-800 text-xs mt-0.5">${item.name}</h4>
